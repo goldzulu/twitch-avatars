@@ -1,8 +1,8 @@
 {
-  "title": "Twitch Chat Overlay",
+  "title": "Twitch Avatars",
   "description": "",
   "version": "1.0.0",
-  "url": "https://goldzulu.github.io/twitch-interactive-overlay",
+  "url": "https://goldzulu.github.io/twitch-avatars",
   "scripts": {
     "clean": "gulp clean",
     "dist": "gulp dist",
