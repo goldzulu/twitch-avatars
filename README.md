@@ -21,9 +21,9 @@ The original credit goes to talk2megooseman. I've since modified it to in an att
 
 Adding the overlay to your stream is super simple!
 
-1. Add the following link as you browser source to your streaming software (like OBS): [https://goldzulu.github.io/twitch-interactive-overlay/?channel=YOUR_CHANNEL_NAME_HERE](https://goldzulu.github.io/twitch-interactive-overlay?channel=YOUR_CHANNEL_NAME_HERE)
+1. Add the following link as you browser source to your streaming software (like OBS): [https://goldzulu.github.io/twitch-avatars/?channel=YOUR_CHANNEL_NAME_HERE](https://goldzulu.github.io/twitch-avatars?channel=YOUR_CHANNEL_NAME_HERE)
 
-2. Change the YOUR_CHANNEL_NAME_HERE in the url to match your channel's name like the following: https://goldzulu.github.io/twitch-interactive-overlay/?channel=goldzulu
+2. Change the YOUR_CHANNEL_NAME_HERE in the url to match your channel's name like the following: https://goldzulu.github.io/twitch-avatars/?channel=goldzulu
 
 3. Type `!commands` or `!audio` to see a list of commands on screen
 
