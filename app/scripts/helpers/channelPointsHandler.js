@@ -1,9 +1,9 @@
 const CHANNEL_REWARDS = [
   {
-    id: "7e9556a3-42a3-436d-9767-afbb6e3bc099", // This id will need to change for your own channel
-    name: "Text to Speech",
-    method: "textToSpeech",
-    event: "sceneEvent",
+    id: '7e9556a3-42a3-436d-9767-afbb6e3bc099', // This id will need to change for your own channel
+    name: 'Text to Speech',
+    method: 'textToSpeech',
+    event: 'sceneEvent',
   },
 ];
 
