@@ -1,10 +1,10 @@
 const CHANNEL_REWARDS = [
   {
-    id: '2897ba61-3d4f-4076-a6e5-ecb8f4b0f19d', // This id will need to change for your own channel
-    name: 'Text to Speech',
-    method: 'textToSpeech',
-    event: 'sceneEvent',
-  }
+    id: "7e9556a3-42a3-436d-9767-afbb6e3bc099", // This id will need to change for your own channel
+    name: "Text to Speech",
+    method: "textToSpeech",
+    event: "sceneEvent",
+  },
 ];
 
 /**
@@ -19,9 +19,7 @@ const CHANNEL_REWARDS = [
  * @returns
  */
 export function redeem(scene, user, reward_id, message) {
-  const foundCommand = CHANNEL_REWARDS.find(
-    c => c.id === reward_id
-  );
+  const foundCommand = CHANNEL_REWARDS.find((c) => c.id === reward_id);
 
   if (!foundCommand) return;
 
