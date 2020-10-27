@@ -455,11 +455,11 @@ export default class UserSprite extends BaseSprite {
     const yPosition = this.y - this.height * 0.5;
 
     if (this.nameText) {
-      this.nameText.setPosition(this.x, yPosition);
+      this.nameText.setPosition(this.x, yPosition + (this.height * this.origScale));
     }
 
     if (this.speechBubble) {
-      this.speechBubble.setPosition(this.x, this.y - this.height);
+      this.speechBubble.setPosition(this.x, this.y - (this.height* this.origScale));
     }
   }
 
