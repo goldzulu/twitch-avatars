@@ -113,6 +113,8 @@ export function renderText(
     fontFamily: 'Arial',
     fontSize: 32,
     color: '#ffff00',
+    stroke: '#000',
+    strokeThickness: 5
   });
   textObject.setOrigin(origin.x, origin.y);
   return textObject;
