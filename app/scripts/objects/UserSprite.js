@@ -5,6 +5,11 @@ import {
   PEASANT,
   KNIGHT,
   SKELETON,
+  VTFAN,
+  VTYODA,
+  VTSUPERFAN,
+  VTSKELETON,
+  VTWIZARD
 } from '@/constants/characters';
 import { getUserIntItem, setUserItem } from '@/helpers/PersistedStorage';
 
@@ -16,6 +21,7 @@ const RUN_THRESHOLD = 150;
 const WALK = 0;
 // const RUN = 1;
 // const JUMP = 2;
+
 
 export default class UserSprite extends BaseSprite {
   /**
@@ -120,13 +126,31 @@ export default class UserSprite extends BaseSprite {
       return sprite;
     }
 
-    const spriteConfig = {
-      scene: scene,
-      key: 'characters',
-      frame: 'peasant/standing/peasant.png',
-      user: user,
-      flags: flags,
-    };
+    let spriteConfig = {};
+    // different frame naming conventions for dafault peasant, knight, skeleton, princess sprite
+    if (this.character === PEASANT)
+    {
+      spriteConfig = {
+        scene: scene,
+        key: 'characters',
+        frame: 'peasant/standing/peasant.png',
+        user: user,
+        flags: flags,
+        scale: 1,
+      };
+    }
+    else
+    // all new VT Sprites
+    {
+      spriteConfig = {
+        scene: scene,
+        key: 'voicetechchars',
+        frame: `standing/vtfan.png`,
+        user: user,
+        flags: flags,
+        scale: 0.33,
+      };      
+    }
 
     sprite = new UserSprite(spriteConfig);
     group.add(sprite);
@@ -145,13 +169,16 @@ export default class UserSprite extends BaseSprite {
 
     this.type = 'user';
     // Default character type
-    this.changeCharacter(PEASANT);
+    // this.changeCharacter(PEASANT);
+    this.changeCharacter(VTFAN);
+
 
     this.user = config.user;
     this.flags = config.flags;
 
     if (this.flags && this.flags.subscriber) {
-      this.changeCharacter(KNIGHT);
+      //this.changeCharacter(KNIGHT);
+      this.changeCharacter(VTSUPERFAN);
     }
 
     this.stillFrame = config.frame;
@@ -167,10 +194,15 @@ export default class UserSprite extends BaseSprite {
     this.knitCodeMonkeyState = false;
 
     this.setOrigin(0.5);
-
+  
     this.anims.play(`${this.character}_walk`);
 
     config.scene.events.on('userChatAction', this.handleChatEvent, this);
+
+    // scale
+    this.origScale=config.scale;
+    this.setScale(this.origScale);
+
 
     this.initMovementTimer();
   }
@@ -199,7 +231,7 @@ export default class UserSprite extends BaseSprite {
   update() {
     // Attempt to adjust hitbox of sprite
     const frame = this.anims.currentAnim.getFrameAt(0).frame;
-    this.body.setSize(frame.width, frame.height);
+    this.body.setSize(frame.width, frame.height+(frame.height*this.origScale));
 
     if (this.isDead) {
       this.body.setVelocity(0, 300);
@@ -251,8 +283,8 @@ export default class UserSprite extends BaseSprite {
 
   setFlags(flags) {
     this.flags = flags;
-    if (flags.subscriber && this.character === PEASANT) {
-      this.changeCharacter(KNIGHT);
+    if (flags.subscriber && this.character === VTFAN) {
+      this.changeCharacter(VTSUPERFAN);
     }
   }
 
@@ -350,7 +382,7 @@ export default class UserSprite extends BaseSprite {
     if (skeleton && !this.knitCodeMonkeyState) {
       this.knitCodeMonkeyState = true;
       this.ogCharacter = this.character;
-      this.changeCharacter(SKELETON);
+      this.changeCharacter(VTSKELETON);
     }
   }
 
@@ -416,7 +448,7 @@ export default class UserSprite extends BaseSprite {
     // Attempting to adjust hitbox of sprite
     const frame = this.anims.currentAnim.getFrameAt(0).frame;
     this.body.setSize(frame.width, frame.height);
-    this.createDelayedCall(20000, () => this.setScale(1));
+    this.createDelayedCall(20000, () => this.setScale(this.origScale));
   }
 
   moveText() {

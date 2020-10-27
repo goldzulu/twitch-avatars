@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-vars */
+/* eslint-disable no-setter-return, no-import-assign, no-unused-vars, no-dupe-else-if */
 import ComfyJS from 'comfy.js';
 import UserSprite from '../objects/UserSprite';
 import bitCreatorFactory from '../helpers/bitsCreatorFactory';
@@ -156,6 +156,7 @@ export default class Game extends Phaser.Scene {
 
     ComfyJS.onChat = (user, message, flags, self, extra) => {
       if (extra.customRewardId) {
+        this.sound.play('airhorn');
         channelPointsHandler.redeem(this, user, extra.customRewardId, message);
       }
 

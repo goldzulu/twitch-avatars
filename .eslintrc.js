@@ -20,7 +20,8 @@ exports.env = {
   es6: true,
 
   // Enable Browser global variables
-  browser: true
+  browser: true,
+  node: true
 };
 
 exports.parserOptions = {
@@ -35,7 +36,8 @@ exports.globals = {
   Phaser: false
 };
 
-exports.extends = 'eslint:recommended';
+// Make ESLint less strict
+//exports.extends = 'eslint:recommended';
 
 exports.rules = {
   // Indent code with 2 spaces
@@ -56,4 +58,5 @@ exports.rules = {
 
   //  End lines with semicolons
   'semi': ['error', 'always']
+
 };

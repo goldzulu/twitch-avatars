@@ -48,6 +48,16 @@ export function triggerTextToSpeech(message) {
   track.play();
 }
 
+export function triggerTextToSpeechByVoice(message, voice) {
+  const SPEECH_URL =
+    'https://api.streamelements.com/kappa/v2/speech?voice=' +
+    voice +
+    '&text=' +
+    encodeURIComponent(message);
+  const track = new Audio(SPEECH_URL);
+  track.play();
+}
+
 /**
  * Returns boolean if sprite has velocity > 0
  *
@@ -170,6 +180,8 @@ export function canTriggerCommand(commandObj, flags, lastTimeUserUsed = 0) {
   }
 
   return (
-    isPremium || ((commandObj.coolDown <= lastTimeUserUsed) || (lastTimeUserUsed === 0))
+    isPremium ||
+    commandObj.coolDown <= lastTimeUserUsed ||
+    lastTimeUserUsed === 0
   );
 }
