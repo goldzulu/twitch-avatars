@@ -1,4 +1,4 @@
-const CHARACTERS = ['vtfan', 'vtsuperfan', 'vtwizard', 'vtyoda', 'vtskeleton'];
+const CHARACTERS = ['vtfan', 'vtsuperfan', 'vtwizard', 'vtyoda', 'vtskeleton', 'vtmandalorian'];
 
 function createStandingAnimation(character, scene) {
   var frameNames = [{

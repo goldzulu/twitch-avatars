@@ -9,7 +9,8 @@ import {
   VTYODA,
   VTSUPERFAN,
   VTSKELETON,
-  VTWIZARD
+  VTWIZARD,
+  VTMANDALORIAN
 } from '@/constants/characters';
 import { getUserIntItem, setUserItem } from '@/helpers/PersistedStorage';
 
@@ -21,6 +22,9 @@ const RUN_THRESHOLD = 150;
 const WALK = 0;
 // const RUN = 1;
 // const JUMP = 2;
+
+const SCALE_VTYODA = 0.4;
+const SCALE_VTALL = 0.75;
 
 
 export default class UserSprite extends BaseSprite {
@@ -126,32 +130,32 @@ export default class UserSprite extends BaseSprite {
       return sprite;
     }
 
+    // Old sprites
+    const oldSprites = ['peasant','princess','knight','wizard2','skeleton'];
+    
     let spriteConfig = {};
-    // different frame naming conventions for dafault peasant, knight, skeleton, princess sprite
-    if (this.character === PEASANT)
+    // different frame naming conventions for default peasant, knight, skeleton, princess sprite
+    if (oldSprites.includes(this.character))
     {
       spriteConfig = {
         scene: scene,
         key: 'characters',
-        frame: 'peasant/standing/peasant.png',
+        frame: `peasant/standing/${this.character}.png`,
         user: user,
-        flags: flags,
-        scale: 1,
+        flags: flags
       };
     }
-    else
-    // all new VT Sprites
-    {
+    else {
+      // all new VT Sprites
       spriteConfig = {
         scene: scene,
         key: 'voicetechchars',
-        frame: `standing/vtfan.png`,
+        frame: `standing/${this.character}.png`,
         user: user,
-        flags: flags,
-        scale: 0.33,
+        flags: flags
       };      
     }
-
+    
     sprite = new UserSprite(spriteConfig);
     group.add(sprite);
 
@@ -171,7 +175,6 @@ export default class UserSprite extends BaseSprite {
     // Default character type
     // this.changeCharacter(PEASANT);
     this.changeCharacter(VTFAN);
-
 
     this.user = config.user;
     this.flags = config.flags;
@@ -199,11 +202,6 @@ export default class UserSprite extends BaseSprite {
 
     config.scene.events.on('userChatAction', this.handleChatEvent, this);
 
-    // scale
-    this.origScale=config.scale;
-    this.setScale(this.origScale);
-
-
     this.initMovementTimer();
   }
 
@@ -229,10 +227,17 @@ export default class UserSprite extends BaseSprite {
   }
 
   update() {
+
     // Attempt to adjust hitbox of sprite
     const frame = this.anims.currentAnim.getFrameAt(0).frame;
-    this.body.setSize(frame.width, frame.height+(frame.height*this.origScale));
-
+    // cater for those sprites that is not x1 scale at full height
+    if (this.character == VTYODA ) {
+      this.body.setSize(frame.width, frame.height*(1/SCALE_VTYODA));
+    }
+    else
+    {
+      this.body.setSize(frame.width, frame.height*(1/SCALE_VTALL));
+    }
     if (this.isDead) {
       this.body.setVelocity(0, 300);
       this.selectAnimation();
@@ -270,6 +275,7 @@ export default class UserSprite extends BaseSprite {
     }
 
     this.selectAnimation();
+
     this.lookInWalkingDirection();
 
     this.moveText();
@@ -283,13 +289,15 @@ export default class UserSprite extends BaseSprite {
 
   setFlags(flags) {
     this.flags = flags;
-    if (flags.subscriber && this.character === VTFAN) {
+    if (flags.subscriber && this.character == VTFAN) {
       this.changeCharacter(VTSUPERFAN);
     }
   }
 
   changeCharacter(character) {
+
     this.character = character;
+
   }
 
   displayNameText() {
@@ -448,18 +456,18 @@ export default class UserSprite extends BaseSprite {
     // Attempting to adjust hitbox of sprite
     const frame = this.anims.currentAnim.getFrameAt(0).frame;
     this.body.setSize(frame.width, frame.height);
-    this.createDelayedCall(20000, () => this.setScale(this.origScale));
+    this.createDelayedCall(20000, () =>  this.setScale(1));
   }
 
   moveText() {
-    const yPosition = this.y - this.height * 0.5;
+    const yPosition = this.y - this.height * 0.2;
 
     if (this.nameText) {
-      this.nameText.setPosition(this.x, yPosition + (this.height * this.origScale));
+      this.nameText.setPosition(this.x, yPosition - this.height);
     }
 
     if (this.speechBubble) {
-      this.speechBubble.setPosition(this.x, this.y - (this.height* this.origScale));
+      this.speechBubble.setPosition(this.x, this.y - (this.height));
     }
   }
 

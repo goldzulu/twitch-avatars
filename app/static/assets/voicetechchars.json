@@ -4,8 +4,8 @@
 			"image": "voicetechchars.png",
 			"format": "RGBA8888",
 			"size": {
-				"w": 1992,
-				"h": 2705
+				"w": 512,
+				"h": 1435
 			},
 			"scale": 1,
 			"frames": [
@@ -14,41 +14,20 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 343,
-						"h": 209
+						"w": 114,
+						"h": 69
 					},
 					"spriteSourceSize": {
-						"x": 28,
-						"y": 2,
-						"w": 303,
-						"h": 207
+						"x": 8,
+						"y": 0,
+						"w": 102,
+						"h": 69
 					},
 					"frame": {
 						"x": 1,
 						"y": 1,
-						"w": 303,
-						"h": 207
-					}
-				},
-				{
-					"filename": "vtskeleton/vtskeleton_die_04.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 343,
-						"h": 218
-					},
-					"spriteSourceSize": {
-						"x": 51,
-						"y": 3,
-						"w": 286,
-						"h": 212
-					},
-					"frame": {
-						"x": 1,
-						"y": 210,
-						"w": 286,
-						"h": 212
+						"w": 102,
+						"h": 69
 					}
 				},
 				{
@@ -56,20 +35,41 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 343,
-						"h": 226
+						"w": 114,
+						"h": 75
 					},
 					"spriteSourceSize": {
-						"x": 40,
-						"y": 3,
-						"w": 278,
-						"h": 220
+						"x": 12,
+						"y": 0,
+						"w": 94,
+						"h": 75
 					},
 					"frame": {
 						"x": 1,
-						"y": 424,
-						"w": 278,
-						"h": 220
+						"y": 72,
+						"w": 94,
+						"h": 75
+					}
+				},
+				{
+					"filename": "vtskeleton/vtskeleton_die_04.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 114,
+						"h": 72
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 0,
+						"w": 96,
+						"h": 72
+					},
+					"frame": {
+						"x": 1,
+						"y": 149,
+						"w": 96,
+						"h": 72
 					}
 				},
 				{
@@ -77,20 +77,20 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 209,
-						"h": 343
+						"w": 69,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 7,
-						"y": 59,
-						"w": 199,
-						"h": 278
+						"x": 1,
+						"y": 18,
+						"w": 68,
+						"h": 94
 					},
 					"frame": {
 						"x": 1,
-						"y": 646,
-						"w": 199,
-						"h": 278
+						"y": 223,
+						"w": 68,
+						"h": 94
 					}
 				},
 				{
@@ -98,41 +98,20 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 209,
-						"h": 342
+						"w": 69,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 3,
-						"y": 61,
-						"w": 199,
-						"h": 274
+						"x": 0,
+						"y": 19,
+						"w": 68,
+						"h": 93
 					},
 					"frame": {
 						"x": 1,
-						"y": 926,
-						"w": 199,
-						"h": 274
-					}
-				},
-				{
-					"filename": "vtsuperfan/vtsuperfan_die_04.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 343,
-						"h": 209
-					},
-					"spriteSourceSize": {
-						"x": 59,
-						"y": 6,
-						"w": 269,
-						"h": 203
-					},
-					"frame": {
-						"x": 306,
-						"y": 1,
-						"w": 269,
-						"h": 203
+						"y": 319,
+						"w": 68,
+						"h": 93
 					}
 				},
 				{
@@ -140,20 +119,20 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 210,
-						"h": 342
+						"w": 69,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 4,
-						"y": 62,
-						"w": 203,
-						"h": 273
+						"x": 0,
+						"y": 20,
+						"w": 69,
+						"h": 92
 					},
 					"frame": {
 						"x": 1,
-						"y": 1202,
-						"w": 203,
-						"h": 273
+						"y": 414,
+						"w": 69,
+						"h": 92
 					}
 				},
 				{
@@ -161,62 +140,41 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 210,
-						"h": 342
+						"w": 69,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 2,
-						"y": 66,
-						"w": 203,
-						"h": 269
+						"x": 0,
+						"y": 21,
+						"w": 69,
+						"h": 91
 					},
 					"frame": {
 						"x": 1,
-						"y": 1477,
-						"w": 203,
-						"h": 269
+						"y": 508,
+						"w": 69,
+						"h": 91
 					}
 				},
 				{
-					"filename": "vtwizard/vtwizard_walk_05.png",
+					"filename": "vtsuperfan/vtsuperfan_die_04.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 210,
-						"h": 343
+						"w": 114,
+						"h": 69
 					},
 					"spriteSourceSize": {
-						"x": 7,
-						"y": 67,
-						"w": 199,
-						"h": 270
+						"x": 18,
+						"y": 1,
+						"w": 91,
+						"h": 68
 					},
 					"frame": {
-						"x": 1,
-						"y": 1748,
-						"w": 199,
-						"h": 270
-					}
-				},
-				{
-					"filename": "vtwizard/vtwizard_jump_01.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 209,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 6,
-						"y": 70,
-						"w": 199,
-						"h": 266
-					},
-					"frame": {
-						"x": 1,
-						"y": 2020,
-						"w": 199,
-						"h": 266
+						"x": 105,
+						"y": 1,
+						"w": 91,
+						"h": 68
 					}
 				},
 				{
@@ -224,83 +182,62 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 209,
-						"h": 343
+						"w": 69,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 3,
-						"y": 67,
-						"w": 203,
-						"h": 265
+						"x": 0,
+						"y": 21,
+						"w": 69,
+						"h": 90
 					},
 					"frame": {
 						"x": 1,
-						"y": 2288,
-						"w": 203,
-						"h": 265
+						"y": 601,
+						"w": 69,
+						"h": 90
 					}
 				},
 				{
-					"filename": "vtskeleton/vtskeleton_die_03.png",
+					"filename": "vtwizard/vtwizard_walk_05.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 231,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 9,
-						"y": 91,
-						"w": 220,
-						"h": 232
-					},
-					"frame": {
-						"x": 577,
-						"y": 1,
-						"w": 220,
-						"h": 232
-					}
-				},
-				{
-					"filename": "vtsuperfan/vtsuperfan_die_03.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 230,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 2,
-						"y": 90,
-						"w": 220,
-						"h": 232
-					},
-					"frame": {
-						"x": 799,
-						"y": 1,
-						"w": 220,
-						"h": 232
-					}
-				},
-				{
-					"filename": "vtfan/vtfan_die_03.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 217,
-						"h": 343
+						"w": 69,
+						"h": 114
 					},
 					"spriteSourceSize": {
 						"x": 1,
-						"y": 63,
-						"w": 216,
-						"h": 257
+						"y": 21,
+						"w": 68,
+						"h": 91
 					},
 					"frame": {
-						"x": 1021,
-						"y": 1,
-						"w": 216,
-						"h": 257
+						"x": 1,
+						"y": 693,
+						"w": 68,
+						"h": 91
+					}
+				},
+				{
+					"filename": "vtwizard/vtwizard_jump_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 69,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 22,
+						"w": 68,
+						"h": 90
+					},
+					"frame": {
+						"x": 1,
+						"y": 786,
+						"w": 68,
+						"h": 90
 					}
 				},
 				{
@@ -308,20 +245,20 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 209,
-						"h": 342
+						"w": 69,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 3,
-						"y": 49,
-						"w": 203,
-						"h": 262
+						"x": 0,
+						"y": 15,
+						"w": 69,
+						"h": 89
 					},
 					"frame": {
-						"x": 1239,
-						"y": 1,
-						"w": 203,
-						"h": 262
+						"x": 1,
+						"y": 878,
+						"w": 69,
+						"h": 89
 					}
 				},
 				{
@@ -329,146 +266,41 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 209,
-						"h": 342
+						"w": 69,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 3,
-						"y": 74,
-						"w": 203,
-						"h": 261
+						"x": 0,
+						"y": 24,
+						"w": 69,
+						"h": 88
 					},
 					"frame": {
-						"x": 1444,
-						"y": 1,
-						"w": 203,
-						"h": 261
+						"x": 1,
+						"y": 969,
+						"w": 69,
+						"h": 88
 					}
 				},
 				{
-					"filename": "vtwizard/vtwizard_die_03.png",
+					"filename": "vtfan/vtfan_die_03.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 209,
-						"h": 343
+						"w": 72,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 3,
-						"y": 70,
-						"w": 203,
-						"h": 253
+						"x": 0,
+						"y": 20,
+						"w": 72,
+						"h": 87
 					},
 					"frame": {
-						"x": 1649,
-						"y": 1,
-						"w": 203,
-						"h": 253
-					}
-				},
-				{
-					"filename": "vtsuperfan/vtsuperfan_run_07.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 44,
-						"y": 78,
-						"w": 137,
-						"h": 257
-					},
-					"frame": {
-						"x": 1854,
-						"y": 1,
-						"w": 137,
-						"h": 257
-					}
-				},
-				{
-					"filename": "vtwizard/vtwizard_jump_02.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 209,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 30,
-						"y": 45,
-						"w": 153,
-						"h": 291
-					},
-					"frame": {
-						"x": 202,
-						"y": 646,
-						"w": 153,
-						"h": 291
-					}
-				},
-				{
-					"filename": "standing/vtwizard.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 209,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 29,
-						"y": 76,
-						"w": 157,
-						"h": 261
-					},
-					"frame": {
-						"x": 202,
-						"y": 939,
-						"w": 157,
-						"h": 261
-					}
-				},
-				{
-					"filename": "vtfan/vtfan_walk_04.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 12,
-						"y": 55,
-						"w": 174,
-						"h": 282
-					},
-					"frame": {
-						"x": 206,
-						"y": 1202,
-						"w": 174,
-						"h": 282
-					}
-				},
-				{
-					"filename": "vtfan/vtfan_die_02.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 12,
-						"y": 63,
-						"w": 182,
-						"h": 269
-					},
-					"frame": {
-						"x": 206,
-						"y": 1486,
-						"w": 182,
-						"h": 269
+						"x": 1,
+						"y": 1059,
+						"w": 72,
+						"h": 87
 					}
 				},
 				{
@@ -476,125 +308,41 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 209,
-						"h": 342
+						"w": 69,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 9,
-						"y": 57,
-						"w": 182,
-						"h": 278
-					},
-					"frame": {
-						"x": 202,
-						"y": 1757,
-						"w": 182,
-						"h": 278
-					}
-				},
-				{
-					"filename": "vtskeleton/vtskeleton_walk_05.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 16,
-						"y": 88,
-						"w": 182,
-						"h": 249
-					},
-					"frame": {
-						"x": 202,
-						"y": 2037,
-						"w": 182,
-						"h": 249
-					}
-				},
-				{
-					"filename": "vtfan/vtfan_run_06.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 7,
-						"y": 74,
-						"w": 178,
-						"h": 266
-					},
-					"frame": {
-						"x": 206,
-						"y": 2288,
-						"w": 178,
-						"h": 266
-					}
-				},
-				{
-					"filename": "vtyoda/vtyoda_die_03.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 231,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 21,
-						"y": 182,
-						"w": 187,
-						"h": 149
+						"x": 2,
+						"y": 18,
+						"w": 62,
+						"h": 94
 					},
 					"frame": {
 						"x": 1,
-						"y": 2555,
-						"w": 187,
-						"h": 149
+						"y": 1148,
+						"w": 62,
+						"h": 94
 					}
 				},
 				{
-					"filename": "vtsuperfan/vtsuperfan_die_05.png",
+					"filename": "vtfan/vtfan_walk_04.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 343,
-						"h": 201
+						"w": 67,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 50,
-						"y": 54,
-						"w": 258,
-						"h": 140
+						"x": 3,
+						"y": 17,
+						"w": 59,
+						"h": 95
 					},
 					"frame": {
-						"x": 190,
-						"y": 2556,
-						"w": 258,
-						"h": 140
-					}
-				},
-				{
-					"filename": "vtfan/vtfan_jump_04.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 12,
-						"y": 58,
-						"w": 174,
-						"h": 278
-					},
-					"frame": {
-						"x": 386,
-						"y": 1757,
-						"w": 174,
-						"h": 278
+						"x": 1,
+						"y": 1244,
+						"w": 59,
+						"h": 95
 					}
 				},
 				{
@@ -602,167 +350,83 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 343
+						"w": 67,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 16,
-						"y": 63,
-						"w": 170,
-						"h": 274
+						"x": 4,
+						"y": 20,
+						"w": 58,
+						"h": 92
 					},
 					"frame": {
-						"x": 386,
-						"y": 2037,
-						"w": 170,
-						"h": 274
-					}
-				},
-				{
-					"filename": "vtskeleton/vtskeleton_run_06.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 29,
-						"y": 99,
-						"w": 157,
-						"h": 241
-					},
-					"frame": {
-						"x": 386,
-						"y": 2313,
-						"w": 157,
-						"h": 241
-					}
-				},
-				{
-					"filename": "vtwizard/vtwizard_die_05.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 343,
-						"h": 201
-					},
-					"spriteSourceSize": {
 						"x": 1,
-						"y": 120,
-						"w": 336,
+						"y": 1341,
+						"w": 58,
+						"h": 92
+					}
+				},
+				{
+					"filename": "vtskeleton/vtskeleton_die_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 29,
+						"w": 75,
+						"h": 79
+					},
+					"frame": {
+						"x": 198,
+						"y": 1,
+						"w": 75,
+						"h": 79
+					}
+				},
+				{
+					"filename": "vtsuperfan/vtsuperfan_die_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 76,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 29,
+						"w": 74,
 						"h": 78
 					},
 					"frame": {
-						"x": 562,
-						"y": 235,
-						"w": 336,
+						"x": 275,
+						"y": 1,
+						"w": 74,
 						"h": 78
 					}
 				},
 				{
-					"filename": "vtfan/vtfan_walk_01.png",
+					"filename": "vtwizard/vtwizard_die_03.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 12,
-						"y": 63,
-						"w": 153,
-						"h": 274
-					},
-					"frame": {
-						"x": 558,
-						"y": 2037,
-						"w": 153,
-						"h": 274
-					}
-				},
-				{
-					"filename": "vtfan/vtfan_jump_01.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 20,
-						"y": 75,
-						"w": 174,
-						"h": 261
-					},
-					"frame": {
-						"x": 545,
-						"y": 2313,
-						"w": 174,
-						"h": 261
-					}
-				},
-				{
-					"filename": "vtfan/vtfan_die_05.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 343,
-						"h": 201
-					},
-					"spriteSourceSize": {
-						"x": 36,
-						"y": 75,
-						"w": 274,
+						"w": 69,
 						"h": 115
 					},
-					"frame": {
-						"x": 450,
-						"y": 2576,
-						"w": 274,
-						"h": 115
-					}
-				},
-				{
-					"filename": "vtfan/vtfan_walk_06.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
 					"spriteSourceSize": {
-						"x": 16,
-						"y": 72,
-						"w": 178,
-						"h": 265
+						"x": 0,
+						"y": 23,
+						"w": 69,
+						"h": 86
 					},
 					"frame": {
-						"x": 382,
-						"y": 206,
-						"w": 178,
-						"h": 265
-					}
-				},
-				{
-					"filename": "vtskeleton/vtskeleton_die_05.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 343,
-						"h": 201
-					},
-					"spriteSourceSize": {
-						"x": 48,
-						"y": 42,
-						"w": 245,
-						"h": 128
-					},
-					"frame": {
-						"x": 562,
-						"y": 315,
-						"w": 245,
-						"h": 128
+						"x": 351,
+						"y": 1,
+						"w": 69,
+						"h": 86
 					}
 				},
 				{
@@ -770,209 +434,104 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 209,
-						"h": 342
+						"w": 69,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 7,
-						"y": 74,
-						"w": 195,
-						"h": 261
+						"x": 1,
+						"y": 24,
+						"w": 67,
+						"h": 88
 					},
 					"frame": {
-						"x": 357,
-						"y": 473,
-						"w": 195,
-						"h": 261
+						"x": 422,
+						"y": 1,
+						"w": 67,
+						"h": 88
 					}
 				},
 				{
-					"filename": "vtyoda/vtyoda_jump_03.png",
+					"filename": "vtwizard/vtwizard_jump_02.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 342
+						"w": 69,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 6,
-						"y": 179,
-						"w": 170,
-						"h": 153
+						"x": 9,
+						"y": 14,
+						"w": 52,
+						"h": 98
 					},
 					"frame": {
-						"x": 357,
-						"y": 736,
-						"w": 170,
-						"h": 153
+						"x": 71,
+						"y": 223,
+						"w": 52,
+						"h": 98
 					}
 				},
 				{
-					"filename": "vtfan/vtfan_run_04.png",
+					"filename": "vtfan/vtfan_run_06.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 342
+						"w": 67,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 11,
-						"y": 62,
-						"w": 170,
-						"h": 273
+						"x": 1,
+						"y": 24,
+						"w": 61,
+						"h": 89
 					},
 					"frame": {
-						"x": 361,
-						"y": 891,
-						"w": 170,
-						"h": 273
+						"x": 71,
+						"y": 323,
+						"w": 61,
+						"h": 89
 					}
 				},
 				{
-					"filename": "vtfan/vtfan_jump_03.png",
+					"filename": "vtfan/vtfan_jump_04.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 342
+						"w": 67,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 8,
-						"y": 38,
-						"w": 153,
-						"h": 273
+						"x": 3,
+						"y": 18,
+						"w": 59,
+						"h": 94
 					},
 					"frame": {
-						"x": 382,
-						"y": 1166,
-						"w": 153,
-						"h": 273
+						"x": 72,
+						"y": 414,
+						"w": 59,
+						"h": 94
 					}
 				},
 				{
-					"filename": "vtfan/vtfan_run_01.png",
+					"filename": "vtfan/vtfan_die_02.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 342
+						"w": 67,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 15,
-						"y": 62,
-						"w": 161,
-						"h": 273
+						"x": 3,
+						"y": 20,
+						"w": 62,
+						"h": 91
 					},
 					"frame": {
-						"x": 390,
-						"y": 1441,
-						"w": 161,
-						"h": 273
-					}
-				},
-				{
-					"filename": "vtfan/vtfan_die_01.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 32,
-						"y": 71,
-						"w": 149,
-						"h": 261
-					},
-					"frame": {
-						"x": 554,
-						"y": 473,
-						"w": 149,
-						"h": 261
-					}
-				},
-				{
-					"filename": "vtfan/vtfan_walk_03.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 16,
-						"y": 63,
-						"w": 141,
-						"h": 274
-					},
-					"frame": {
-						"x": 705,
-						"y": 445,
-						"w": 141,
-						"h": 274
-					}
-				},
-				{
-					"filename": "vtyoda/vtyoda_jump_02.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 6,
-						"y": 175,
-						"w": 170,
-						"h": 149
-					},
-					"frame": {
-						"x": 529,
-						"y": 736,
-						"w": 170,
-						"h": 149
-					}
-				},
-				{
-					"filename": "vtwizard/vtwizard_die_01.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 209,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 28,
-						"y": 62,
-						"w": 170,
-						"h": 270
-					},
-					"frame": {
-						"x": 533,
-						"y": 887,
-						"w": 170,
-						"h": 270
-					}
-				},
-				{
-					"filename": "vtwizard/vtwizard_walk_07.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 209,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 20,
-						"y": 67,
-						"w": 182,
-						"h": 270
-					},
-					"frame": {
-						"x": 537,
-						"y": 1159,
-						"w": 182,
-						"h": 270
+						"x": 72,
+						"y": 510,
+						"w": 62,
+						"h": 91
 					}
 				},
 				{
@@ -980,272 +539,20 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 343
+						"w": 67,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 12,
-						"y": 68,
-						"w": 186,
-						"h": 269
+						"x": 3,
+						"y": 21,
+						"w": 63,
+						"h": 91
 					},
 					"frame": {
-						"x": 553,
-						"y": 1431,
-						"w": 186,
-						"h": 269
-					}
-				},
-				{
-					"filename": "vtwizard/vtwizard_walk_03.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 209,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 7,
-						"y": 71,
-						"w": 183,
-						"h": 266
-					},
-					"frame": {
-						"x": 562,
-						"y": 1702,
-						"w": 183,
-						"h": 266
-					}
-				},
-				{
-					"filename": "vtfan/vtfan_run_05.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 11,
-						"y": 62,
-						"w": 161,
-						"h": 273
-					},
-					"frame": {
-						"x": 705,
-						"y": 721,
-						"w": 161,
-						"h": 273
-					}
-				},
-				{
-					"filename": "vtyoda/vtyoda_run_04.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 6,
-						"y": 195,
-						"w": 166,
-						"h": 140
-					},
-					"frame": {
-						"x": 705,
-						"y": 996,
-						"w": 166,
-						"h": 140
-					}
-				},
-				{
-					"filename": "vtfan/vtfan_jump_02.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 4,
-						"y": 42,
-						"w": 153,
-						"h": 269
-					},
-					"frame": {
-						"x": 721,
-						"y": 1138,
-						"w": 153,
-						"h": 269
-					}
-				},
-				{
-					"filename": "vtfan/vtfan_walk_08.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 25,
-						"y": 63,
-						"w": 140,
-						"h": 274
-					},
-					"frame": {
-						"x": 741,
-						"y": 1409,
-						"w": 140,
-						"h": 274
-					}
-				},
-				{
-					"filename": "vtfan/vtfan_run_08.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 16,
-						"y": 62,
-						"w": 141,
-						"h": 273
-					},
-					"frame": {
-						"x": 747,
-						"y": 1685,
-						"w": 141,
-						"h": 273
-					}
-				},
-				{
-					"filename": "standing/vtyoda.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 7,
-						"y": 200,
-						"w": 170,
-						"h": 128
-					},
-					"frame": {
-						"x": 809,
-						"y": 315,
-						"w": 170,
-						"h": 128
-					}
-				},
-				{
-					"filename": "vtfan/vtfan_run_02.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 7,
-						"y": 66,
-						"w": 153,
-						"h": 269
-					},
-					"frame": {
-						"x": 848,
-						"y": 445,
-						"w": 153,
-						"h": 269
-					}
-				},
-				{
-					"filename": "vtfan/vtfan_run_03.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 11,
-						"y": 66,
-						"w": 145,
-						"h": 269
-					},
-					"frame": {
-						"x": 868,
-						"y": 716,
-						"w": 145,
-						"h": 269
-					}
-				},
-				{
-					"filename": "vtyoda/vtyoda_die_04.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 343,
-						"h": 218
-					},
-					"spriteSourceSize": {
-						"x": 88,
-						"y": 28,
-						"w": 149,
-						"h": 145
-					},
-					"frame": {
-						"x": 873,
-						"y": 987,
-						"w": 149,
-						"h": 145
-					}
-				},
-				{
-					"filename": "vtfan/vtfan_run_07.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 19,
-						"y": 66,
-						"w": 157,
-						"h": 269
-					},
-					"frame": {
-						"x": 876,
-						"y": 1134,
-						"w": 157,
-						"h": 269
-					}
-				},
-				{
-					"filename": "vtfan/vtfan_walk_07.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 12,
-						"y": 68,
-						"w": 157,
-						"h": 269
-					},
-					"frame": {
-						"x": 883,
-						"y": 1405,
-						"w": 157,
-						"h": 269
+						"x": 72,
+						"y": 603,
+						"w": 63,
+						"h": 91
 					}
 				},
 				{
@@ -1253,20 +560,20 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 210,
-						"h": 343
+						"w": 69,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 12,
-						"y": 71,
-						"w": 190,
-						"h": 266
+						"x": 3,
+						"y": 22,
+						"w": 65,
+						"h": 90
 					},
 					"frame": {
-						"x": 890,
-						"y": 1676,
-						"w": 190,
-						"h": 266
+						"x": 71,
+						"y": 696,
+						"w": 65,
+						"h": 90
 					}
 				},
 				{
@@ -1274,125 +581,41 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 210,
-						"h": 343
+						"w": 69,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 16,
-						"y": 75,
-						"w": 190,
-						"h": 262
+						"x": 4,
+						"y": 24,
+						"w": 65,
+						"h": 88
 					},
 					"frame": {
-						"x": 1003,
-						"y": 260,
-						"w": 190,
-						"h": 262
+						"x": 71,
+						"y": 788,
+						"w": 65,
+						"h": 88
 					}
 				},
 				{
-					"filename": "vtwizard/vtwizard_jump_04.png",
+					"filename": "vtwizard/vtwizard_walk_03.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 209,
-						"h": 342
+						"w": 69,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 10,
-						"y": 83,
-						"w": 195,
-						"h": 253
+						"x": 1,
+						"y": 22,
+						"w": 63,
+						"h": 90
 					},
 					"frame": {
-						"x": 1195,
-						"y": 265,
-						"w": 195,
-						"h": 253
-					}
-				},
-				{
-					"filename": "vtyoda/vtyoda_run_03.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 6,
-						"y": 199,
-						"w": 183,
-						"h": 136
-					},
-					"frame": {
-						"x": 1003,
-						"y": 524,
-						"w": 183,
-						"h": 136
-					}
-				},
-				{
-					"filename": "vtwizard/vtwizard_run_03.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 210,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 12,
-						"y": 70,
-						"w": 178,
-						"h": 265
-					},
-					"frame": {
-						"x": 1015,
-						"y": 662,
-						"w": 178,
-						"h": 265
-					}
-				},
-				{
-					"filename": "standing/vtskeleton.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 41,
-						"y": 75,
-						"w": 124,
-						"h": 253
-					},
-					"frame": {
-						"x": 1392,
-						"y": 265,
-						"w": 124,
-						"h": 253
-					}
-				},
-				{
-					"filename": "standing/vtsuperfan.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 32,
-						"y": 71,
-						"w": 141,
-						"h": 257
-					},
-					"frame": {
-						"x": 1518,
-						"y": 264,
-						"w": 141,
-						"h": 257
+						"x": 72,
+						"y": 878,
+						"w": 63,
+						"h": 90
 					}
 				},
 				{
@@ -1400,146 +623,314 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 209,
-						"h": 343
+						"w": 69,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 25,
+						"w": 61,
+						"h": 87
+					},
+					"frame": {
+						"x": 72,
+						"y": 970,
+						"w": 61,
+						"h": 87
+					}
+				},
+				{
+					"filename": "vtfan/vtfan_jump_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 24,
+						"w": 59,
+						"h": 88
+					},
+					"frame": {
+						"x": 75,
+						"y": 1059,
+						"w": 59,
+						"h": 88
+					}
+				},
+				{
+					"filename": "vtwizard/vtwizard_walk_07.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 69,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 21,
+						"w": 62,
+						"h": 91
+					},
+					"frame": {
+						"x": 65,
+						"y": 1149,
+						"w": 62,
+						"h": 91
+					}
+				},
+				{
+					"filename": "vtfan/vtfan_jump_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 13,
+						"w": 53,
+						"h": 91
+					},
+					"frame": {
+						"x": 129,
+						"y": 1149,
+						"w": 53,
+						"h": 91
+					}
+				},
+				{
+					"filename": "vtwizard/vtwizard_die_05.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 114,
+						"h": 67
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 39,
+						"w": 112,
+						"h": 27
+					},
+					"frame": {
+						"x": 65,
+						"y": 1242,
+						"w": 112,
+						"h": 27
+					}
+				},
+				{
+					"filename": "vtsuperfan/vtsuperfan_die_05.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 114,
+						"h": 67
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 88,
+						"h": 48
+					},
+					"frame": {
+						"x": 62,
+						"y": 1271,
+						"w": 88,
+						"h": 48
+					}
+				},
+				{
+					"filename": "vtfan/vtfan_die_05.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 114,
+						"h": 67
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 24,
+						"w": 92,
+						"h": 40
+					},
+					"frame": {
+						"x": 62,
+						"y": 1321,
+						"w": 92,
+						"h": 40
+					}
+				},
+				{
+					"filename": "vtmandalorian/vtmandalorian_jump_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 82
 					},
 					"spriteSourceSize": {
 						"x": 7,
-						"y": 80,
-						"w": 178,
-						"h": 257
+						"y": 8,
+						"w": 38,
+						"h": 71
 					},
 					"frame": {
-						"x": 1661,
-						"y": 256,
-						"w": 178,
-						"h": 257
+						"x": 61,
+						"y": 1363,
+						"w": 38,
+						"h": 71
 					}
 				},
 				{
-					"filename": "vtskeleton/vtskeleton_run_04.png",
+					"filename": "vtmandalorian/vtmandalorian_walk_04.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 342
+						"w": 50,
+						"h": 82
 					},
 					"spriteSourceSize": {
-						"x": 33,
-						"y": 82,
-						"w": 149,
-						"h": 253
+						"x": 0,
+						"y": 16,
+						"w": 50,
+						"h": 66
 					},
 					"frame": {
-						"x": 1841,
-						"y": 260,
-						"w": 149,
-						"h": 253
+						"x": 101,
+						"y": 1363,
+						"w": 50,
+						"h": 66
 					}
 				},
 				{
-					"filename": "vtskeleton/vtskeleton_jump_04.png",
+					"filename": "vtfan/vtfan_jump_03.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 342
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 12,
+						"w": 52,
+						"h": 92
+					},
+					"frame": {
+						"x": 133,
+						"y": 414,
+						"w": 52,
+						"h": 92
+					}
+				},
+				{
+					"filename": "vtfan/vtfan_run_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
 					},
 					"spriteSourceSize": {
 						"x": 4,
-						"y": 96,
-						"w": 194,
-						"h": 240
+						"y": 20,
+						"w": 55,
+						"h": 92
 					},
 					"frame": {
-						"x": 1195,
-						"y": 520,
-						"w": 194,
-						"h": 240
+						"x": 136,
+						"y": 508,
+						"w": 55,
+						"h": 92
 					}
 				},
 				{
-					"filename": "vtsuperfan/vtsuperfan_run_02.png",
+					"filename": "vtfan/vtfan_run_04.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 342
+						"w": 67,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 36,
-						"y": 82,
-						"w": 124,
-						"h": 253
+						"x": 3,
+						"y": 20,
+						"w": 58,
+						"h": 92
 					},
 					"frame": {
-						"x": 1391,
-						"y": 520,
-						"w": 124,
-						"h": 253
+						"x": 137,
+						"y": 602,
+						"w": 58,
+						"h": 92
 					}
 				},
 				{
-					"filename": "vtskeleton/vtskeleton_jump_02.png",
+					"filename": "vtwizard/vtwizard_die_01.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 342
+						"w": 69,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 25,
-						"y": 50,
-						"w": 144,
-						"h": 261
+						"x": 8,
+						"y": 19,
+						"w": 58,
+						"h": 92
 					},
 					"frame": {
-						"x": 1517,
-						"y": 523,
-						"w": 144,
-						"h": 261
+						"x": 138,
+						"y": 696,
+						"w": 58,
+						"h": 92
 					}
 				},
 				{
-					"filename": "vtsuperfan/vtsuperfan_jump_04.png",
+					"filename": "vtfan/vtfan_walk_06.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 342
+						"w": 67,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 12,
-						"y": 80,
-						"w": 174,
-						"h": 257
+						"x": 4,
+						"y": 23,
+						"w": 61,
+						"h": 89
 					},
 					"frame": {
-						"x": 1663,
-						"y": 515,
-						"w": 174,
-						"h": 257
+						"x": 138,
+						"y": 790,
+						"w": 61,
+						"h": 89
 					}
 				},
 				{
-					"filename": "vtsuperfan/vtsuperfan_jump_02.png",
+					"filename": "vtwizard/vtwizard_run_03.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 342
+						"w": 69,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 16,
-						"y": 46,
-						"w": 149,
-						"h": 266
+						"x": 3,
+						"y": 22,
+						"w": 61,
+						"h": 90
 					},
 					"frame": {
-						"x": 1839,
-						"y": 515,
-						"w": 149,
-						"h": 266
+						"x": 137,
+						"y": 881,
+						"w": 61,
+						"h": 90
 					}
 				},
 				{
@@ -1547,62 +938,20 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 342
+						"w": 67,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 8,
-						"y": 63,
-						"w": 182,
-						"h": 248
+						"x": 2,
+						"y": 20,
+						"w": 62,
+						"h": 84
 					},
 					"frame": {
-						"x": 1195,
-						"y": 762,
-						"w": 182,
-						"h": 248
-					}
-				},
-				{
-					"filename": "vtsuperfan/vtsuperfan_die_01.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 51,
-						"y": 79,
-						"w": 136,
-						"h": 253
-					},
-					"frame": {
-						"x": 1379,
-						"y": 775,
-						"w": 136,
-						"h": 253
-					}
-				},
-				{
-					"filename": "vtskeleton/vtskeleton_die_01.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 43,
-						"y": 87,
-						"w": 157,
-						"h": 244
-					},
-					"frame": {
-						"x": 1517,
-						"y": 786,
-						"w": 157,
-						"h": 244
+						"x": 135,
+						"y": 973,
+						"w": 62,
+						"h": 84
 					}
 				},
 				{
@@ -1610,62 +959,83 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 343
+						"w": 67,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 33,
-						"y": 76,
-						"w": 161,
-						"h": 261
+						"x": 10,
+						"y": 24,
+						"w": 55,
+						"h": 88
 					},
 					"frame": {
-						"x": 1676,
-						"y": 774,
-						"w": 161,
-						"h": 261
+						"x": 136,
+						"y": 1059,
+						"w": 55,
+						"h": 88
 					}
 				},
 				{
-					"filename": "vtskeleton/vtskeleton_run_01.png",
+					"filename": "vtfan/vtfan_run_02.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 342
+						"w": 67,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 29,
-						"y": 82,
-						"w": 148,
-						"h": 253
+						"x": 1,
+						"y": 21,
+						"w": 53,
+						"h": 91
 					},
 					"frame": {
-						"x": 1839,
-						"y": 783,
-						"w": 148,
-						"h": 253
+						"x": 184,
+						"y": 1149,
+						"w": 53,
+						"h": 91
 					}
 				},
 				{
-					"filename": "vtyoda/vtyoda_die_01.png",
+					"filename": "standing/vtwizard.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 343
+						"w": 69,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 14,
-						"y": 199,
-						"w": 169,
-						"h": 132
+						"x": 9,
+						"y": 24,
+						"w": 53,
+						"h": 88
 					},
 					"frame": {
-						"x": 1024,
-						"y": 929,
-						"w": 169,
-						"h": 132
+						"x": 193,
+						"y": 1059,
+						"w": 53,
+						"h": 88
+					}
+				},
+				{
+					"filename": "vtskeleton/vtskeleton_walk_05.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 28,
+						"w": 62,
+						"h": 84
+					},
+					"frame": {
+						"x": 199,
+						"y": 973,
+						"w": 62,
+						"h": 84
 					}
 				},
 				{
@@ -1673,839 +1043,251 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 210,
-						"h": 342
+						"w": 69,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 20,
-						"y": 70,
-						"w": 166,
-						"h": 265
+						"x": 5,
+						"y": 22,
+						"w": 57,
+						"h": 90
 					},
 					"frame": {
-						"x": 1035,
-						"y": 1063,
-						"w": 166,
-						"h": 265
+						"x": 200,
+						"y": 881,
+						"w": 57,
+						"h": 90
 					}
 				},
 				{
-					"filename": "vtsuperfan/vtsuperfan_die_02.png",
+					"filename": "vtfan/vtfan_die_01.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 343
+						"w": 67,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 18,
-						"y": 79,
-						"w": 174,
-						"h": 253
+						"x": 10,
+						"y": 22,
+						"w": 51,
+						"h": 89
 					},
 					"frame": {
-						"x": 1203,
-						"y": 1012,
-						"w": 174,
-						"h": 253
+						"x": 248,
+						"y": 1059,
+						"w": 51,
+						"h": 89
 					}
 				},
 				{
-					"filename": "vtsuperfan/vtsuperfan_walk_07.png",
+					"filename": "vtfan/vtfan_run_05.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 343
+						"w": 67,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 37,
-						"y": 80,
-						"w": 136,
-						"h": 257
+						"x": 3,
+						"y": 20,
+						"w": 55,
+						"h": 92
 					},
 					"frame": {
-						"x": 1379,
-						"y": 1030,
-						"w": 136,
-						"h": 257
+						"x": 239,
+						"y": 1150,
+						"w": 55,
+						"h": 92
 					}
 				},
 				{
-					"filename": "vtsuperfan/vtsuperfan_walk_04.png",
+					"filename": "vtfan/vtfan_run_08.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 33,
-						"y": 76,
-						"w": 157,
-						"h": 261
-					},
-					"frame": {
-						"x": 1517,
-						"y": 1032,
-						"w": 157,
-						"h": 261
-					}
-				},
-				{
-					"filename": "vtwizard/vtwizard_walk_01.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 210,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 24,
-						"y": 76,
-						"w": 161,
-						"h": 261
-					},
-					"frame": {
-						"x": 1676,
-						"y": 1037,
-						"w": 161,
-						"h": 261
-					}
-				},
-				{
-					"filename": "vtsuperfan/vtsuperfan_run_01.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 28,
-						"y": 78,
-						"w": 148,
-						"h": 257
-					},
-					"frame": {
-						"x": 1839,
-						"y": 1038,
-						"w": 148,
-						"h": 257
-					}
-				},
-				{
-					"filename": "vtsuperfan/vtsuperfan_walk_05.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 16,
-						"y": 84,
-						"w": 178,
-						"h": 253
-					},
-					"frame": {
-						"x": 1042,
-						"y": 1330,
-						"w": 178,
-						"h": 253
-					}
-				},
-				{
-					"filename": "vtsuperfan/vtsuperfan_jump_03.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 8,
-						"y": 55,
-						"w": 153,
-						"h": 257
-					},
-					"frame": {
-						"x": 1222,
-						"y": 1267,
-						"w": 153,
-						"h": 257
-					}
-				},
-				{
-					"filename": "vtskeleton/vtskeleton_walk_07.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 41,
-						"y": 88,
-						"w": 132,
-						"h": 249
-					},
-					"frame": {
-						"x": 1377,
-						"y": 1289,
-						"w": 132,
-						"h": 249
-					}
-				},
-				{
-					"filename": "vtskeleton/vtskeleton_jump_01.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 37,
-						"y": 92,
-						"w": 157,
-						"h": 244
-					},
-					"frame": {
-						"x": 1511,
-						"y": 1295,
-						"w": 157,
-						"h": 244
-					}
-				},
-				{
-					"filename": "vtskeleton/vtskeleton_die_02.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 22,
-						"y": 91,
-						"w": 170,
-						"h": 240
-					},
-					"frame": {
-						"x": 1670,
-						"y": 1300,
-						"w": 170,
-						"h": 240
-					}
-				},
-				{
-					"filename": "vtskeleton/vtskeleton_run_07.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 41,
-						"y": 91,
-						"w": 145,
-						"h": 244
-					},
-					"frame": {
-						"x": 1842,
-						"y": 1297,
-						"w": 145,
-						"h": 244
-					}
-				},
-				{
-					"filename": "vtfan/vtfan_walk_02.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 12,
-						"y": 72,
-						"w": 140,
-						"h": 265
-					},
-					"frame": {
-						"x": 1082,
-						"y": 1585,
-						"w": 140,
-						"h": 265
-					}
-				},
-				{
-					"filename": "vtsuperfan/vtsuperfan_run_04.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 36,
-						"y": 78,
-						"w": 145,
-						"h": 257
-					},
-					"frame": {
-						"x": 1224,
-						"y": 1526,
-						"w": 145,
-						"h": 257
-					}
-				},
-				{
-					"filename": "vtskeleton/vtskeleton_walk_03.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 29,
-						"y": 84,
-						"w": 128,
-						"h": 253
-					},
-					"frame": {
-						"x": 1371,
-						"y": 1540,
-						"w": 128,
-						"h": 253
-					}
-				},
-				{
-					"filename": "vtsuperfan/vtsuperfan_walk_06.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 29,
-						"y": 88,
-						"w": 165,
-						"h": 249
-					},
-					"frame": {
-						"x": 1501,
-						"y": 1541,
-						"w": 165,
-						"h": 249
-					}
-				},
-				{
-					"filename": "vtskeleton/vtskeleton_walk_06.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 29,
-						"y": 93,
-						"w": 169,
-						"h": 244
-					},
-					"frame": {
-						"x": 1668,
-						"y": 1542,
-						"w": 169,
-						"h": 244
-					}
-				},
-				{
-					"filename": "vtsuperfan/vtsuperfan_run_05.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 28,
-						"y": 78,
-						"w": 144,
-						"h": 257
-					},
-					"frame": {
-						"x": 1839,
-						"y": 1543,
-						"w": 144,
-						"h": 257
-					}
-				},
-				{
-					"filename": "vtskeleton/vtskeleton_run_05.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 29,
-						"y": 82,
-						"w": 153,
-						"h": 253
-					},
-					"frame": {
-						"x": 1082,
-						"y": 1852,
-						"w": 153,
-						"h": 253
-					}
-				},
-				{
-					"filename": "vtsuperfan/vtsuperfan_run_08.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 41,
-						"y": 74,
-						"w": 120,
-						"h": 261
-					},
-					"frame": {
-						"x": 1237,
-						"y": 1785,
-						"w": 120,
-						"h": 261
-					}
-				},
-				{
-					"filename": "vtsuperfan/vtsuperfan_jump_01.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 41,
-						"y": 84,
-						"w": 153,
-						"h": 253
-					},
-					"frame": {
-						"x": 1359,
-						"y": 1795,
-						"w": 153,
-						"h": 253
-					}
-				},
-				{
-					"filename": "vtsuperfan/vtsuperfan_run_06.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 32,
-						"y": 87,
-						"w": 153,
-						"h": 248
-					},
-					"frame": {
-						"x": 1514,
-						"y": 1792,
-						"w": 153,
-						"h": 248
-					}
-				},
-				{
-					"filename": "vtsuperfan/vtsuperfan_walk_03.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 29,
-						"y": 84,
-						"w": 128,
-						"h": 253
-					},
-					"frame": {
-						"x": 1669,
-						"y": 1788,
-						"w": 128,
-						"h": 253
-					}
-				},
-				{
-					"filename": "vtsuperfan/vtsuperfan_walk_01.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 41,
-						"y": 80,
-						"w": 124,
-						"h": 257
-					},
-					"frame": {
-						"x": 1799,
-						"y": 1802,
-						"w": 124,
-						"h": 257
-					}
-				},
-				{
-					"filename": "vtsuperfan/vtsuperfan_walk_08.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 54,
-						"y": 76,
-						"w": 111,
-						"h": 261
-					},
-					"frame": {
-						"x": 713,
-						"y": 1970,
-						"w": 111,
-						"h": 261
-					}
-				},
-				{
-					"filename": "vtskeleton/vtskeleton_run_08.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 38,
-						"y": 82,
-						"w": 120,
-						"h": 253
-					},
-					"frame": {
-						"x": 826,
-						"y": 1960,
-						"w": 120,
-						"h": 253
-					}
-				},
-				{
-					"filename": "vtskeleton/vtskeleton_walk_01.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 45,
-						"y": 84,
-						"w": 120,
-						"h": 253
-					},
-					"frame": {
-						"x": 948,
-						"y": 1944,
-						"w": 120,
-						"h": 253
-					}
-				},
-				{
-					"filename": "vtskeleton/vtskeleton_walk_08.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 54,
-						"y": 84,
-						"w": 111,
-						"h": 253
-					},
-					"frame": {
-						"x": 721,
-						"y": 2233,
-						"w": 111,
-						"h": 253
-					}
-				},
-				{
-					"filename": "vtsuperfan/vtsuperfan_walk_02.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 41,
-						"y": 88,
-						"w": 116,
-						"h": 249
-					},
-					"frame": {
-						"x": 834,
-						"y": 2215,
-						"w": 116,
-						"h": 249
-					}
-				},
-				{
-					"filename": "vtskeleton/vtskeleton_run_02.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 41,
-						"y": 87,
-						"w": 120,
-						"h": 248
-					},
-					"frame": {
-						"x": 952,
-						"y": 2199,
-						"w": 120,
-						"h": 248
-					}
-				},
-				{
-					"filename": "vtsuperfan/vtsuperfan_run_03.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 40,
-						"y": 87,
-						"w": 120,
-						"h": 248
-					},
-					"frame": {
-						"x": 1074,
-						"y": 2107,
-						"w": 120,
-						"h": 248
-					}
-				},
-				{
-					"filename": "vtskeleton/vtskeleton_run_03.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 45,
-						"y": 87,
-						"w": 116,
-						"h": 248
-					},
-					"frame": {
-						"x": 1196,
-						"y": 2107,
-						"w": 116,
-						"h": 248
-					}
-				},
-				{
-					"filename": "vtyoda/vtyoda_run_02.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 15,
-						"y": 207,
-						"w": 178,
-						"h": 128
-					},
-					"frame": {
-						"x": 1074,
-						"y": 2357,
-						"w": 178,
-						"h": 128
-					}
-				},
-				{
-					"filename": "vtskeleton/vtskeleton_walk_02.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 37,
-						"y": 93,
-						"w": 115,
-						"h": 244
-					},
-					"frame": {
-						"x": 1314,
-						"y": 2050,
-						"w": 115,
-						"h": 244
-					}
-				},
-				{
-					"filename": "vtyoda/vtyoda_run_05.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 342
-					},
-					"spriteSourceSize": {
-						"x": 27,
-						"y": 195,
-						"w": 153,
-						"h": 140
-					},
-					"frame": {
-						"x": 1431,
-						"y": 2050,
-						"w": 153,
-						"h": 140
-					}
-				},
-				{
-					"filename": "vtyoda/vtyoda_die_02.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 14,
-						"y": 195,
-						"w": 161,
-						"h": 136
-					},
-					"frame": {
-						"x": 1431,
-						"y": 2192,
-						"w": 161,
-						"h": 136
-					}
-				},
-				{
-					"filename": "vtyoda/vtyoda_walk_03.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 205,
-						"w": 178,
-						"h": 132
-					},
-					"frame": {
-						"x": 1586,
-						"y": 2043,
-						"w": 178,
-						"h": 132
-					}
-				},
-				{
-					"filename": "vtyoda/vtyoda_walk_04.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
+						"w": 67,
+						"h": 114
 					},
 					"spriteSourceSize": {
 						"x": 4,
-						"y": 197,
-						"w": 165,
-						"h": 140
+						"y": 20,
+						"w": 49,
+						"h": 92
 					},
 					"frame": {
-						"x": 1594,
-						"y": 2177,
-						"w": 165,
-						"h": 140
+						"x": 296,
+						"y": 1150,
+						"w": 49,
+						"h": 92
 					}
 				},
 				{
-					"filename": "vtyoda/vtyoda_die_05.png",
+					"filename": "standing/vtyoda.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 343,
-						"h": 201
+						"w": 67,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 80,
-						"y": 77,
-						"w": 161,
-						"h": 116
+						"x": 1,
+						"y": 65,
+						"w": 58,
+						"h": 44
 					},
 					"frame": {
-						"x": 1766,
-						"y": 2061,
-						"w": 161,
-						"h": 116
+						"x": 179,
+						"y": 1242,
+						"w": 58,
+						"h": 44
 					}
 				},
 				{
-					"filename": "vtyoda/vtyoda_run_01.png",
+					"filename": "vtskeleton/vtskeleton_die_05.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 342
+						"w": 114,
+						"h": 67
 					},
 					"spriteSourceSize": {
-						"x": 19,
-						"y": 203,
-						"w": 170,
-						"h": 132
+						"x": 15,
+						"y": 13,
+						"w": 83,
+						"h": 44
 					},
 					"frame": {
-						"x": 1761,
-						"y": 2179,
-						"w": 170,
-						"h": 132
+						"x": 239,
+						"y": 1244,
+						"w": 83,
+						"h": 44
+					}
+				},
+				{
+					"filename": "vtwizard/vtwizard_jump_04.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 69,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 27,
+						"w": 67,
+						"h": 85
+					},
+					"frame": {
+						"x": 156,
+						"y": 1288,
+						"w": 67,
+						"h": 85
+					}
+				},
+				{
+					"filename": "vtskeleton/vtskeleton_jump_04.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 31,
+						"w": 66,
+						"h": 81
+					},
+					"frame": {
+						"x": 225,
+						"y": 1290,
+						"w": 66,
+						"h": 81
+					}
+				},
+				{
+					"filename": "vtmandalorian/vtmandalorian_die_04.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 82,
+						"h": 54
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 0,
+						"w": 69,
+						"h": 53
+					},
+					"frame": {
+						"x": 153,
+						"y": 1375,
+						"w": 69,
+						"h": 53
+					}
+				},
+				{
+					"filename": "standing/vtskeleton.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 24,
+						"w": 43,
+						"h": 85
+					},
+					"frame": {
+						"x": 293,
+						"y": 1290,
+						"w": 43,
+						"h": 85
+					}
+				},
+				{
+					"filename": "vtmandalorian/vtmandalorian_jump_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 11,
+						"w": 50,
+						"h": 61
+					},
+					"frame": {
+						"x": 225,
+						"y": 1373,
+						"w": 50,
+						"h": 61
+					}
+				},
+				{
+					"filename": "vtyoda/vtyoda_jump_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 58,
+						"w": 58,
+						"h": 53
+					},
+					"frame": {
+						"x": 277,
+						"y": 1377,
+						"w": 58,
+						"h": 53
 					}
 				},
 				{
@@ -2513,41 +1295,1595 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 342
+						"w": 67,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 19,
-						"y": 208,
-						"w": 169,
-						"h": 128
+						"x": 5,
+						"y": 68,
+						"w": 58,
+						"h": 44
 					},
 					"frame": {
-						"x": 1254,
-						"y": 2357,
-						"w": 169,
-						"h": 128
+						"x": 324,
+						"y": 1244,
+						"w": 58,
+						"h": 44
 					}
 				},
 				{
-					"filename": "vtyoda/vtyoda_run_06.png",
+					"filename": "standing/vtsuperfan.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 342
+						"w": 67,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 15,
-						"y": 203,
-						"w": 174,
-						"h": 132
+						"x": 10,
+						"y": 22,
+						"w": 48,
+						"h": 87
 					},
 					"frame": {
-						"x": 1425,
-						"y": 2330,
-						"w": 174,
-						"h": 132
+						"x": 338,
+						"y": 1290,
+						"w": 48,
+						"h": 87
+					}
+				},
+				{
+					"filename": "vtyoda/vtyoda_die_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 59,
+						"w": 64,
+						"h": 51
+					},
+					"frame": {
+						"x": 337,
+						"y": 1379,
+						"w": 64,
+						"h": 51
+					}
+				},
+				{
+					"filename": "vtmandalorian/vtmandalorian_run_08.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 15,
+						"w": 46,
+						"h": 66
+					},
+					"frame": {
+						"x": 97,
+						"y": 72,
+						"w": 46,
+						"h": 66
+					}
+				},
+				{
+					"filename": "vtskeleton/vtskeleton_die_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 29,
+						"w": 58,
+						"h": 81
+					},
+					"frame": {
+						"x": 99,
+						"y": 140,
+						"w": 58,
+						"h": 81
+					}
+				},
+				{
+					"filename": "vtfan/vtfan_walk_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 20,
+						"w": 52,
+						"h": 92
+					},
+					"frame": {
+						"x": 125,
+						"y": 223,
+						"w": 52,
+						"h": 92
+					}
+				},
+				{
+					"filename": "vtfan/vtfan_walk_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 20,
+						"w": 49,
+						"h": 92
+					},
+					"frame": {
+						"x": 134,
+						"y": 317,
+						"w": 49,
+						"h": 92
+					}
+				},
+				{
+					"filename": "vtmandalorian/vtmandalorian_run_04.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 16,
+						"w": 50,
+						"h": 65
+					},
+					"frame": {
+						"x": 145,
+						"y": 71,
+						"w": 50,
+						"h": 65
+					}
+				},
+				{
+					"filename": "vtskeleton/vtskeleton_jump_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 29,
+						"w": 54,
+						"h": 83
+					},
+					"frame": {
+						"x": 159,
+						"y": 138,
+						"w": 54,
+						"h": 83
+					}
+				},
+				{
+					"filename": "vtfan/vtfan_walk_08.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 20,
+						"w": 48,
+						"h": 92
+					},
+					"frame": {
+						"x": 179,
+						"y": 223,
+						"w": 48,
+						"h": 92
+					}
+				},
+				{
+					"filename": "vtfan/vtfan_run_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 21,
+						"w": 50,
+						"h": 91
+					},
+					"frame": {
+						"x": 185,
+						"y": 317,
+						"w": 50,
+						"h": 91
+					}
+				},
+				{
+					"filename": "vtfan/vtfan_run_07.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 21,
+						"w": 54,
+						"h": 91
+					},
+					"frame": {
+						"x": 187,
+						"y": 410,
+						"w": 54,
+						"h": 91
+					}
+				},
+				{
+					"filename": "vtfan/vtfan_walk_07.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 21,
+						"w": 54,
+						"h": 91
+					},
+					"frame": {
+						"x": 193,
+						"y": 503,
+						"w": 54,
+						"h": 91
+					}
+				},
+				{
+					"filename": "vtsuperfan/vtsuperfan_jump_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 14,
+						"w": 51,
+						"h": 90
+					},
+					"frame": {
+						"x": 197,
+						"y": 596,
+						"w": 51,
+						"h": 90
+					}
+				},
+				{
+					"filename": "vtskeleton/vtskeleton_jump_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 16,
+						"w": 50,
+						"h": 88
+					},
+					"frame": {
+						"x": 198,
+						"y": 688,
+						"w": 50,
+						"h": 88
+					}
+				},
+				{
+					"filename": "vtfan/vtfan_walk_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 23,
+						"w": 48,
+						"h": 89
+					},
+					"frame": {
+						"x": 201,
+						"y": 778,
+						"w": 48,
+						"h": 89
+					}
+				},
+				{
+					"filename": "vtyoda/vtyoda_jump_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 57,
+						"w": 58,
+						"h": 51
+					},
+					"frame": {
+						"x": 197,
+						"y": 82,
+						"w": 58,
+						"h": 51
+					}
+				},
+				{
+					"filename": "vtskeleton/vtskeleton_run_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 26,
+						"w": 50,
+						"h": 86
+					},
+					"frame": {
+						"x": 215,
+						"y": 135,
+						"w": 50,
+						"h": 86
+					}
+				},
+				{
+					"filename": "vtsuperfan/vtsuperfan_run_08.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 24,
+						"w": 42,
+						"h": 88
+					},
+					"frame": {
+						"x": 229,
+						"y": 223,
+						"w": 42,
+						"h": 88
+					}
+				},
+				{
+					"filename": "vtsuperfan/vtsuperfan_walk_04.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 24,
+						"w": 54,
+						"h": 88
+					},
+					"frame": {
+						"x": 237,
+						"y": 313,
+						"w": 54,
+						"h": 88
+					}
+				},
+				{
+					"filename": "vtwizard/vtwizard_walk_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 69,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 24,
+						"w": 55,
+						"h": 88
+					},
+					"frame": {
+						"x": 243,
+						"y": 403,
+						"w": 55,
+						"h": 88
+					}
+				},
+				{
+					"filename": "vtsuperfan/vtsuperfan_jump_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 17,
+						"w": 52,
+						"h": 87
+					},
+					"frame": {
+						"x": 249,
+						"y": 493,
+						"w": 52,
+						"h": 87
+					}
+				},
+				{
+					"filename": "vtsuperfan/vtsuperfan_run_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 25,
+						"w": 51,
+						"h": 87
+					},
+					"frame": {
+						"x": 250,
+						"y": 582,
+						"w": 51,
+						"h": 87
+					}
+				},
+				{
+					"filename": "vtskeleton/vtskeleton_run_04.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 26,
+						"w": 51,
+						"h": 86
+					},
+					"frame": {
+						"x": 250,
+						"y": 671,
+						"w": 51,
+						"h": 86
+					}
+				},
+				{
+					"filename": "vtsuperfan/vtsuperfan_run_04.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 25,
+						"w": 50,
+						"h": 87
+					},
+					"frame": {
+						"x": 251,
+						"y": 759,
+						"w": 50,
+						"h": 87
+					}
+				},
+				{
+					"filename": "vtsuperfan/vtsuperfan_run_05.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 25,
+						"w": 50,
+						"h": 87
+					},
+					"frame": {
+						"x": 259,
+						"y": 848,
+						"w": 50,
+						"h": 87
+					}
+				},
+				{
+					"filename": "vtsuperfan/vtsuperfan_run_07.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 25,
+						"w": 48,
+						"h": 87
+					},
+					"frame": {
+						"x": 263,
+						"y": 937,
+						"w": 48,
+						"h": 87
+					}
+				},
+				{
+					"filename": "vtyoda/vtyoda_die_04.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 114,
+						"h": 72
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 8,
+						"w": 51,
+						"h": 50
+					},
+					"frame": {
+						"x": 257,
+						"y": 82,
+						"w": 51,
+						"h": 50
+					}
+				},
+				{
+					"filename": "vtsuperfan/vtsuperfan_walk_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 25,
+						"w": 43,
+						"h": 87
+					},
+					"frame": {
+						"x": 267,
+						"y": 134,
+						"w": 43,
+						"h": 87
+					}
+				},
+				{
+					"filename": "vtsuperfan/vtsuperfan_walk_08.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 24,
+						"w": 38,
+						"h": 88
+					},
+					"frame": {
+						"x": 273,
+						"y": 223,
+						"w": 38,
+						"h": 88
+					}
+				},
+				{
+					"filename": "vtsuperfan/vtsuperfan_walk_07.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 25,
+						"w": 47,
+						"h": 87
+					},
+					"frame": {
+						"x": 293,
+						"y": 313,
+						"w": 47,
+						"h": 87
+					}
+				},
+				{
+					"filename": "vtskeleton/vtskeleton_run_05.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 26,
+						"w": 52,
+						"h": 86
+					},
+					"frame": {
+						"x": 300,
+						"y": 402,
+						"w": 52,
+						"h": 86
+					}
+				},
+				{
+					"filename": "vtsuperfan/vtsuperfan_die_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 25,
+						"w": 59,
+						"h": 86
+					},
+					"frame": {
+						"x": 303,
+						"y": 490,
+						"w": 59,
+						"h": 86
+					}
+				},
+				{
+					"filename": "vtsuperfan/vtsuperfan_jump_04.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 26,
+						"w": 59,
+						"h": 86
+					},
+					"frame": {
+						"x": 303,
+						"y": 578,
+						"w": 59,
+						"h": 86
+					}
+				},
+				{
+					"filename": "vtsuperfan/vtsuperfan_walk_05.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 27,
+						"w": 61,
+						"h": 85
+					},
+					"frame": {
+						"x": 303,
+						"y": 666,
+						"w": 61,
+						"h": 85
+					}
+				},
+				{
+					"filename": "vtsuperfan/vtsuperfan_walk_06.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 28,
+						"w": 56,
+						"h": 84
+					},
+					"frame": {
+						"x": 303,
+						"y": 753,
+						"w": 56,
+						"h": 84
+					}
+				},
+				{
+					"filename": "vtsuperfan/vtsuperfan_die_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 25,
+						"w": 47,
+						"h": 86
+					},
+					"frame": {
+						"x": 311,
+						"y": 839,
+						"w": 47,
+						"h": 86
+					}
+				},
+				{
+					"filename": "vtsuperfan/vtsuperfan_jump_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 27,
+						"w": 53,
+						"h": 85
+					},
+					"frame": {
+						"x": 313,
+						"y": 927,
+						"w": 53,
+						"h": 85
+					}
+				},
+				{
+					"filename": "vtskeleton/vtskeleton_run_08.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 26,
+						"w": 42,
+						"h": 86
+					},
+					"frame": {
+						"x": 360,
+						"y": 839,
+						"w": 42,
+						"h": 86
+					}
+				},
+				{
+					"filename": "vtskeleton/vtskeleton_run_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 28,
+						"w": 42,
+						"h": 84
+					},
+					"frame": {
+						"x": 361,
+						"y": 753,
+						"w": 42,
+						"h": 84
+					}
+				},
+				{
+					"filename": "vtskeleton/vtskeleton_walk_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 27,
+						"w": 41,
+						"h": 85
+					},
+					"frame": {
+						"x": 368,
+						"y": 927,
+						"w": 41,
+						"h": 85
+					}
+				},
+				{
+					"filename": "vtsuperfan/vtsuperfan_run_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 26,
+						"w": 43,
+						"h": 86
+					},
+					"frame": {
+						"x": 404,
+						"y": 839,
+						"w": 43,
+						"h": 86
+					}
+				},
+				{
+					"filename": "vtskeleton/vtskeleton_walk_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 27,
+						"w": 44,
+						"h": 85
+					},
+					"frame": {
+						"x": 411,
+						"y": 927,
+						"w": 44,
+						"h": 85
+					}
+				},
+				{
+					"filename": "vtskeleton/vtskeleton_die_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 28,
+						"w": 54,
+						"h": 82
+					},
+					"frame": {
+						"x": 457,
+						"y": 91,
+						"w": 54,
+						"h": 82
+					}
+				},
+				{
+					"filename": "vtskeleton/vtskeleton_run_07.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 29,
+						"w": 50,
+						"h": 83
+					},
+					"frame": {
+						"x": 405,
+						"y": 91,
+						"w": 50,
+						"h": 83
+					}
+				},
+				{
+					"filename": "vtmandalorian/vtmandalorian_run_07.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 17,
+						"w": 49,
+						"h": 64
+					},
+					"frame": {
+						"x": 354,
+						"y": 89,
+						"w": 49,
+						"h": 64
+					}
+				},
+				{
+					"filename": "vtskeleton/vtskeleton_run_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 28,
+						"w": 40,
+						"h": 84
+					},
+					"frame": {
+						"x": 312,
+						"y": 89,
+						"w": 40,
+						"h": 84
+					}
+				},
+				{
+					"filename": "vtmandalorian/vtmandalorian_die_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 23,
+						"w": 49,
+						"h": 58
+					},
+					"frame": {
+						"x": 354,
+						"y": 155,
+						"w": 49,
+						"h": 58
+					}
+				},
+				{
+					"filename": "vtskeleton/vtskeleton_walk_06.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 30,
+						"w": 57,
+						"h": 82
+					},
+					"frame": {
+						"x": 313,
+						"y": 215,
+						"w": 57,
+						"h": 82
+					}
+				},
+				{
+					"filename": "vtskeleton/vtskeleton_walk_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 30,
+						"w": 40,
+						"h": 82
+					},
+					"frame": {
+						"x": 372,
+						"y": 215,
+						"w": 40,
+						"h": 82
+					}
+				},
+				{
+					"filename": "vtsuperfan/vtsuperfan_run_06.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 28,
+						"w": 52,
+						"h": 84
+					},
+					"frame": {
+						"x": 342,
+						"y": 299,
+						"w": 52,
+						"h": 84
+					}
+				},
+				{
+					"filename": "vtsuperfan/vtsuperfan_walk_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 27,
+						"w": 44,
+						"h": 85
+					},
+					"frame": {
+						"x": 354,
+						"y": 385,
+						"w": 44,
+						"h": 85
+					}
+				},
+				{
+					"filename": "vtskeleton/vtskeleton_walk_07.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 28,
+						"w": 46,
+						"h": 84
+					},
+					"frame": {
+						"x": 396,
+						"y": 299,
+						"w": 46,
+						"h": 84
+					}
+				},
+				{
+					"filename": "vtsuperfan/vtsuperfan_run_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 28,
+						"w": 42,
+						"h": 84
+					},
+					"frame": {
+						"x": 400,
+						"y": 385,
+						"w": 42,
+						"h": 84
+					}
+				},
+				{
+					"filename": "vtskeleton/vtskeleton_walk_08.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 27,
+						"w": 38,
+						"h": 85
+					},
+					"frame": {
+						"x": 364,
+						"y": 472,
+						"w": 38,
+						"h": 85
+					}
+				},
+				{
+					"filename": "vtsuperfan/vtsuperfan_walk_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 28,
+						"w": 41,
+						"h": 84
+					},
+					"frame": {
+						"x": 364,
+						"y": 559,
+						"w": 41,
+						"h": 84
+					}
+				},
+				{
+					"filename": "vtskeleton/vtskeleton_run_06.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 32,
+						"w": 53,
+						"h": 81
+					},
+					"frame": {
+						"x": 404,
+						"y": 471,
+						"w": 53,
+						"h": 81
+					}
+				},
+				{
+					"filename": "vtmandalorian/vtmandalorian_run_05.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 16,
+						"w": 50,
+						"h": 65
+					},
+					"frame": {
+						"x": 407,
+						"y": 554,
+						"w": 50,
+						"h": 65
+					}
+				},
+				{
+					"filename": "vtyoda/vtyoda_run_05.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 63,
+						"w": 52,
+						"h": 49
+					},
+					"frame": {
+						"x": 459,
+						"y": 175,
+						"w": 52,
+						"h": 49
+					}
+				},
+				{
+					"filename": "vtmandalorian/vtmandalorian_die_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 17,
+						"w": 43,
+						"h": 63
+					},
+					"frame": {
+						"x": 414,
+						"y": 176,
+						"w": 43,
+						"h": 63
+					}
+				},
+				{
+					"filename": "vtyoda/vtyoda_run_04.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 63,
+						"w": 57,
+						"h": 49
+					},
+					"frame": {
+						"x": 414,
+						"y": 241,
+						"w": 57,
+						"h": 49
+					}
+				},
+				{
+					"filename": "vtmandalorian/vtmandalorian_walk_08.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 18,
+						"w": 48,
+						"h": 64
+					},
+					"frame": {
+						"x": 444,
+						"y": 292,
+						"w": 48,
+						"h": 64
+					}
+				},
+				{
+					"filename": "vtmandalorian/vtmandalorian_run_06.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 18,
+						"w": 50,
+						"h": 63
+					},
+					"frame": {
+						"x": 444,
+						"y": 358,
+						"w": 50,
+						"h": 63
+					}
+				},
+				{
+					"filename": "vtyoda/vtyoda_run_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 66,
+						"w": 58,
+						"h": 46
+					},
+					"frame": {
+						"x": 444,
+						"y": 423,
+						"w": 58,
+						"h": 46
+					}
+				},
+				{
+					"filename": "vtmandalorian/vtmandalorian_run_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 18,
+						"w": 45,
+						"h": 63
+					},
+					"frame": {
+						"x": 459,
+						"y": 471,
+						"w": 45,
+						"h": 63
+					}
+				},
+				{
+					"filename": "vtmandalorian/vtmandalorian_walk_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 19,
+						"w": 46,
+						"h": 63
+					},
+					"frame": {
+						"x": 459,
+						"y": 536,
+						"w": 46,
+						"h": 63
+					}
+				},
+				{
+					"filename": "vtmandalorian/vtmandalorian_run_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 18,
+						"w": 42,
+						"h": 63
+					},
+					"frame": {
+						"x": 366,
+						"y": 645,
+						"w": 42,
+						"h": 63
+					}
+				},
+				{
+					"filename": "vtyoda/vtyoda_die_05.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 114,
+						"h": 67
+					},
+					"spriteSourceSize": {
+						"x": 25,
+						"y": 24,
+						"w": 56,
+						"h": 41
+					},
+					"frame": {
+						"x": 366,
+						"y": 710,
+						"w": 56,
+						"h": 41
+					}
+				},
+				{
+					"filename": "vtmandalorian/vtmandalorian_walk_05.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 19,
+						"w": 50,
+						"h": 63
+					},
+					"frame": {
+						"x": 410,
+						"y": 621,
+						"w": 50,
+						"h": 63
+					}
+				},
+				{
+					"filename": "vtmandalorian/vtmandalorian_run_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 19,
+						"w": 49,
+						"h": 62
+					},
+					"frame": {
+						"x": 462,
+						"y": 601,
+						"w": 49,
+						"h": 62
+					}
+				},
+				{
+					"filename": "vtmandalorian/vtmandalorian_walk_07.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 19,
+						"w": 46,
+						"h": 63
+					},
+					"frame": {
+						"x": 405,
+						"y": 753,
+						"w": 46,
+						"h": 63
+					}
+				},
+				{
+					"filename": "vtyoda/vtyoda_run_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 65,
+						"w": 62,
+						"h": 47
+					},
+					"frame": {
+						"x": 449,
+						"y": 818,
+						"w": 62,
+						"h": 47
+					}
+				},
+				{
+					"filename": "vtmandalorian/vtmandalorian_die_05.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 82,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 12,
+						"w": 62,
+						"h": 33
+					},
+					"frame": {
+						"x": 449,
+						"y": 867,
+						"w": 62,
+						"h": 33
+					}
+				},
+				{
+					"filename": "vtmandalorian/vtmandalorian_jump_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 20,
+						"w": 50,
+						"h": 62
+					},
+					"frame": {
+						"x": 457,
+						"y": 902,
+						"w": 50,
+						"h": 62
+					}
+				},
+				{
+					"filename": "vtmandalorian/vtmandalorian_die_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 21,
+						"w": 48,
+						"h": 58
+					},
+					"frame": {
+						"x": 457,
+						"y": 966,
+						"w": 48,
+						"h": 58
+					}
+				},
+				{
+					"filename": "standing/vtmandalorian.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 20,
+						"w": 40,
+						"h": 62
+					},
+					"frame": {
+						"x": 424,
+						"y": 686,
+						"w": 40,
+						"h": 62
 					}
 				},
 				{
@@ -2555,20 +2891,209 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 342
+						"w": 67,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 19,
-						"y": 203,
-						"w": 170,
-						"h": 132
+						"x": 5,
+						"y": 66,
+						"w": 58,
+						"h": 46
 					},
 					"frame": {
-						"x": 1601,
-						"y": 2319,
-						"w": 170,
-						"h": 132
+						"x": 453,
+						"y": 750,
+						"w": 58,
+						"h": 46
+					}
+				},
+				{
+					"filename": "vtmandalorian/vtmandalorian_walk_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 21,
+						"w": 44,
+						"h": 61
+					},
+					"frame": {
+						"x": 466,
+						"y": 665,
+						"w": 44,
+						"h": 61
+					}
+				},
+				{
+					"filename": "vtyoda/vtyoda_run_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 67,
+						"w": 61,
+						"h": 45
+					},
+					"frame": {
+						"x": 313,
+						"y": 1014,
+						"w": 61,
+						"h": 45
+					}
+				},
+				{
+					"filename": "vtyoda/vtyoda_walk_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 67,
+						"w": 60,
+						"h": 45
+					},
+					"frame": {
+						"x": 376,
+						"y": 1014,
+						"w": 60,
+						"h": 45
+					}
+				},
+				{
+					"filename": "vtmandalorian/vtmandalorian_jump_04.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 22,
+						"w": 48,
+						"h": 60
+					},
+					"frame": {
+						"x": 301,
+						"y": 1061,
+						"w": 48,
+						"h": 60
+					}
+				},
+				{
+					"filename": "vtmandalorian/vtmandalorian_walk_06.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 22,
+						"w": 48,
+						"h": 60
+					},
+					"frame": {
+						"x": 351,
+						"y": 1061,
+						"w": 48,
+						"h": 60
+					}
+				},
+				{
+					"filename": "vtmandalorian/vtmandalorian_walk_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 20,
+						"w": 41,
+						"h": 62
+					},
+					"frame": {
+						"x": 401,
+						"y": 1061,
+						"w": 41,
+						"h": 62
+					}
+				},
+				{
+					"filename": "vtyoda/vtyoda_run_06.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 66,
+						"w": 59,
+						"h": 46
+					},
+					"frame": {
+						"x": 444,
+						"y": 1026,
+						"w": 59,
+						"h": 46
+					}
+				},
+				{
+					"filename": "vtyoda/vtyoda_walk_04.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 64,
+						"w": 57,
+						"h": 48
+					},
+					"frame": {
+						"x": 444,
+						"y": 1074,
+						"w": 57,
+						"h": 48
+					}
+				},
+				{
+					"filename": "vtyoda/vtyoda_die_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 65,
+						"w": 57,
+						"h": 45
+					},
+					"frame": {
+						"x": 444,
+						"y": 1124,
+						"w": 57,
+						"h": 45
 					}
 				},
 				{
@@ -2576,41 +3101,20 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 342
+						"w": 67,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 12,
-						"y": 203,
-						"w": 169,
-						"h": 132
+						"x": 3,
+						"y": 66,
+						"w": 58,
+						"h": 46
 					},
 					"frame": {
-						"x": 1773,
-						"y": 2313,
-						"w": 169,
-						"h": 132
-					}
-				},
-				{
-					"filename": "vtyoda/vtyoda_walk_06.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 8,
-						"y": 205,
-						"w": 174,
-						"h": 132
-					},
-					"frame": {
-						"x": 1425,
-						"y": 2464,
-						"w": 174,
-						"h": 132
+						"x": 384,
+						"y": 1125,
+						"w": 58,
+						"h": 46
 					}
 				},
 				{
@@ -2618,20 +3122,62 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 343
+						"w": 67,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 16,
-						"y": 201,
-						"w": 170,
-						"h": 132
+						"x": 4,
+						"y": 65,
+						"w": 58,
+						"h": 46
 					},
 					"frame": {
-						"x": 1601,
-						"y": 2453,
-						"w": 170,
-						"h": 132
+						"x": 347,
+						"y": 1173,
+						"w": 58,
+						"h": 46
+					}
+				},
+				{
+					"filename": "vtyoda/vtyoda_die_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 63,
+						"w": 55,
+						"h": 47
+					},
+					"frame": {
+						"x": 407,
+						"y": 1173,
+						"w": 55,
+						"h": 47
+					}
+				},
+				{
+					"filename": "vtyoda/vtyoda_walk_06.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 67,
+						"w": 59,
+						"h": 45
+					},
+					"frame": {
+						"x": 384,
+						"y": 1222,
+						"w": 59,
+						"h": 45
 					}
 				},
 				{
@@ -2639,20 +3185,20 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 343
+						"w": 67,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 25,
-						"y": 205,
-						"w": 169,
-						"h": 132
+						"x": 7,
+						"y": 67,
+						"w": 58,
+						"h": 45
 					},
 					"frame": {
-						"x": 1773,
-						"y": 2447,
-						"w": 169,
-						"h": 132
+						"x": 388,
+						"y": 1269,
+						"w": 58,
+						"h": 45
 					}
 				},
 				{
@@ -2660,20 +3206,20 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 343
+						"w": 67,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 12,
-						"y": 205,
-						"w": 170,
-						"h": 132
+						"x": 3,
+						"y": 67,
+						"w": 58,
+						"h": 45
 					},
 					"frame": {
-						"x": 726,
-						"y": 2488,
-						"w": 170,
-						"h": 132
+						"x": 388,
+						"y": 1316,
+						"w": 58,
+						"h": 45
 					}
 				},
 				{
@@ -2681,41 +3227,20 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 343
+						"w": 67,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 8,
-						"y": 205,
-						"w": 170,
-						"h": 132
+						"x": 2,
+						"y": 67,
+						"w": 58,
+						"h": 45
 					},
 					"frame": {
-						"x": 898,
-						"y": 2466,
-						"w": 170,
-						"h": 132
-					}
-				},
-				{
-					"filename": "vtyoda/vtyoda_walk_02.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 201,
-						"h": 343
-					},
-					"spriteSourceSize": {
-						"x": 12,
-						"y": 205,
-						"w": 170,
-						"h": 128
-					},
-					"frame": {
-						"x": 1070,
-						"y": 2487,
-						"w": 170,
-						"h": 128
+						"x": 403,
+						"y": 1363,
+						"w": 58,
+						"h": 45
 					}
 				},
 				{
@@ -2723,20 +3248,41 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 201,
-						"h": 342
+						"w": 67,
+						"h": 114
 					},
 					"spriteSourceSize": {
-						"x": 19,
-						"y": 208,
-						"w": 165,
-						"h": 128
+						"x": 5,
+						"y": 68,
+						"w": 57,
+						"h": 44
 					},
 					"frame": {
-						"x": 1242,
-						"y": 2487,
-						"w": 165,
-						"h": 128
+						"x": 445,
+						"y": 1222,
+						"w": 57,
+						"h": 44
+					}
+				},
+				{
+					"filename": "vtyoda/vtyoda_walk_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 67,
+						"w": 58,
+						"h": 44
+					},
+					"frame": {
+						"x": 448,
+						"y": 1268,
+						"w": 58,
+						"h": 44
 					}
 				}
 			]
@@ -2745,6 +3291,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:0216ce387edecbb451c8be928fded0d8:3ab20603f380257d7f2dba91a927781c:56e9227dd605f6ddeeada6371aeda1d6$"
+		"smartupdate": "$TexturePacker:SmartUpdate:c779fa1d9b0b6fdb699073eeb8535a73:71352da29e1936e1df2f1c8aabd378e9:56e9227dd605f6ddeeada6371aeda1d6$"
 	}
 }

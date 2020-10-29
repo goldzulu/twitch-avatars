@@ -9,6 +9,7 @@ export const VTSUPERFAN = 'vtsuperfan';
 export const VTWIZARD = 'vtwizard';
 export const VTYODA = 'vtyoda';
 export const VTSKELETON = 'vtskeleton';
+export const VTMANDALORIAN = 'vtmandalorian';
 
 export const SANTA = 'santa';
 export const SNOWMAN = 'snowman';
