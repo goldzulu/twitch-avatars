@@ -12,6 +12,7 @@ export const VTSKELETON = 'vtskeleton';
 export const VTMANDALORIAN = 'vtmandalorian';
 export const VTCAPTAINMARVEL = 'vtcaptainmarvel';
 export const VTWONDERWOMAN = 'vtwonderwoman';
+export const VTSPIDERMAN = 'vtspiderman';
 
 
 export const SANTA = 'santa';

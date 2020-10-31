@@ -13,6 +13,7 @@ import {
   VTMANDALORIAN,
   VTWONDERWOMAN,
   VTCAPTAINMARVEL,
+  VTSPIDERMAN,
 } from '@/constants/characters';
 import { getUserIntItem, setUserItem } from '@/helpers/PersistedStorage';
 
@@ -24,10 +25,6 @@ const RUN_THRESHOLD = 150;
 const WALK = 0;
 // const RUN = 1;
 // const JUMP = 2;
-
-const SCALE_VTYODA = 0.4;
-const SCALE_VTALL = 0.80;
-
 
 export default class UserSprite extends BaseSprite {
   /**
@@ -232,14 +229,8 @@ export default class UserSprite extends BaseSprite {
 
     // Attempt to adjust hitbox of sprite
     const frame = this.anims.currentAnim.getFrameAt(0).frame;
-    // cater for those sprites that is not x1 scale at full height
-    if (this.character == VTYODA ) {
-      this.body.setSize(frame.width, frame.height*(1/SCALE_VTYODA));
-    }
-    else
-    {
-      this.body.setSize(frame.width, frame.height*(1/SCALE_VTALL));
-    }
+    this.body.setSize(frame.width, frame.height);
+    
     if (this.isDead) {
       this.body.setVelocity(0, 300);
       this.selectAnimation();
@@ -462,14 +453,14 @@ export default class UserSprite extends BaseSprite {
   }
 
   moveText() {
-    const yPosition = this.y - this.height * 0.2;
+    const yPosition = this.y - this.height;
 
     if (this.nameText) {
-      this.nameText.setPosition(this.x, yPosition - this.height);
+      this.nameText.setPosition(this.x, yPosition - this.height*0.5);
     }
 
     if (this.speechBubble) {
-      this.speechBubble.setPosition(this.x, this.y - (this.height));
+      this.speechBubble.setPosition(this.x, yPosition - (this.height*0.4));
     }
   }
 
