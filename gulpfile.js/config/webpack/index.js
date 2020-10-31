@@ -64,5 +64,12 @@ module.exports = (env = 'development') => ({
   //  Turn performance hints off.
   performance: {
     hints: false
+  },
+
+  // fix for https://github.com/websockets/ws/issues/1126
+  externals: {
+    bufferutil: 'bufferutil',
+    'utf-8-validate': 'utf-8-validate',
   }
+  
 });
