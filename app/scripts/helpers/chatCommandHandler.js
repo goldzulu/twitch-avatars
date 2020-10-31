@@ -71,6 +71,18 @@ export const COMMANDS = [
     args: ['vtmandalorian'],
   },
   {
+    command: 'wonderwoman',
+    method: 'changeCharacter',
+    event: 'userChatAction',
+    args: ['vtwonderwoman'],
+  },
+  {
+    command: 'captainmarvel',
+    method: 'changeCharacter',
+    event: 'userChatAction',
+    args: ['vtcaptainmarvel'],
+  },
+  {
     command: 'princess',
     method: 'changeCharacter',
     event: 'userChatAction',

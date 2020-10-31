@@ -25,7 +25,7 @@ Adding the overlay to your stream is super simple!
 
 2. Change the YOUR_CHANNEL_NAME_HERE in the url to match your channel's name like the following: https://goldzulu.github.io/twitch-avatars/?channel=goldzulu
 
-3. Type `!commands` or `!audio` to see a list of commands on screen
+3. Type `!controls` or `!audio` to see a list of commands on screen
 
 ---
 

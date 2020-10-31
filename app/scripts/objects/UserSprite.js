@@ -10,7 +10,9 @@ import {
   VTSUPERFAN,
   VTSKELETON,
   VTWIZARD,
-  VTMANDALORIAN
+  VTMANDALORIAN,
+  VTWONDERWOMAN,
+  VTCAPTAINMARVEL,
 } from '@/constants/characters';
 import { getUserIntItem, setUserItem } from '@/helpers/PersistedStorage';
 
@@ -24,7 +26,7 @@ const WALK = 0;
 // const JUMP = 2;
 
 const SCALE_VTYODA = 0.4;
-const SCALE_VTALL = 0.75;
+const SCALE_VTALL = 0.80;
 
 
 export default class UserSprite extends BaseSprite {
