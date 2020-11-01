@@ -4,7 +4,9 @@
 
 Twitch Interactive Chat Overlay is a simple and fun overlay to add to your stream that gives chat a new way to interact with you and fellow members of chat. Every person in the chat is reperesented by a sprite on the screen they can control. Doing the `!controls` command will display a dialog on the screen of the various command they can do to controls their sprite. Also doing `!audio` will display the commands they can use to trigger audio queues that are backed into the overlay. It's just some simple silly that can be had with out the need of any servers or logging into a website to use.
 
-The original credit goes to talk2megooseman. I've since modified it to in an attempt to make it more usable on Smart Displays.
+The original credit goes to talk2megooseman. I've since modified it to in an attempt to make it more usable for future improvements for Alexa Smart Displays
+
+The bitmap sprites used are corrently copyrighted by me but you are free to use them on your channels via this overlay
 
 ---
 # Features:
@@ -15,6 +17,7 @@ The original credit goes to talk2megooseman. I've since modified it to in an att
 - Requires no server
 - !controls
 - !audio
+
 
 
 # How do I use the overlay on my stream?
