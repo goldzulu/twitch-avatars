@@ -3,7 +3,7 @@ import { canTriggerCommand } from './phaserHelpers';
 export const AUDIO_COMMANDS = [
   {
     command: 'raid_alert',
-    file: 'audio/alarm.wav',
+    file: 'audio/Alarm.wav',
     config: { volume: 0.20 },
     private: true,
   },
