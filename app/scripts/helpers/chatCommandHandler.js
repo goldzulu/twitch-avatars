@@ -53,7 +53,7 @@ export const COMMANDS = [
     event: 'userChatAction',
   },
   {
-    command: 'yoda',
+    command: 'thechild',
     method: 'changeCharacter',
     event: 'userChatAction',
     args: ['vtyoda'],
