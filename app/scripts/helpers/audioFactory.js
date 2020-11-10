@@ -145,6 +145,61 @@ export const AUDIO_COMMANDS = [
     file: 'audio/push-it.mp3',
     config: { volume: 0.6 },
   },
+  {
+    command: 'applause',
+    file: 'audio/applause.mp3',
+    config: { volume: 1.0 },
+  },
+  {
+    command: 'correct',
+    file: 'audio/correct-ding.mp3',
+    config: { volume: 1.0 },
+  },
+  {
+    command: 'drumroll',
+    file: 'audio/snare-roll.mp3',
+    config: { volume: 1.0 },
+  },
+  {
+    command: 'punchline',
+    file: 'audio/ba-dum-tiss-with-laughter.mp3',
+    config: { volume: 1.0 },
+  },
+  {
+    command: 'gasp',
+    file: 'audio/gasp.mp3',
+    config: { volume: 1.0 },
+  },
+  {
+    command: 'tada',
+    file: 'audio/tada.mp3',
+    config: { volume: 1.0 },
+  },
+  {
+    command: 'boo',
+    file: 'audio/boo.mp3',
+    config: { volume: 1.0 },
+  },
+  {
+    command: 'guitar',
+    file: 'audio/guitar-pinch-harmonic.mp3',
+    config: { volume: 1.0 },
+  },
+  {
+    command: 'victory',
+    file: 'audio/victory.mp3',
+    config: { volume: 1.0 },
+  },
+  {
+    command: 'crowd',
+    file: 'audio/cheer-crowd.mp3',
+    config: { volume: 1.0 },
+  },
+  {
+    command: 'wrong',
+    file: 'audio/wrong.mp3',
+    config: { volume: 1.0 },
+  }
 ];
 
 /**
