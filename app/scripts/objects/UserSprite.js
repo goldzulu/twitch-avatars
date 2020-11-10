@@ -130,7 +130,7 @@ export default class UserSprite extends BaseSprite {
     }
 
     // Old sprites
-    const oldSprites = ['peasant','princess','knight','wizard2','skeleton'];
+    const oldSprites = ['peasant','princess','knight','wizard_2','skeleton'];
     
     let spriteConfig = {};
     // different frame naming conventions for default peasant, knight, skeleton, princess sprite
@@ -139,7 +139,7 @@ export default class UserSprite extends BaseSprite {
       spriteConfig = {
         scene: scene,
         key: 'characters',
-        frame: `peasant/standing/${this.character}.png`,
+        frame: `peasant/standing/peasant.png`,
         user: user,
         flags: flags
       };
@@ -149,7 +149,7 @@ export default class UserSprite extends BaseSprite {
       spriteConfig = {
         scene: scene,
         key: 'voicetechchars',
-        frame: `standing/${this.character}.png`,
+        frame: `standing/vtfan.png`,
         user: user,
         flags: flags
       };      
