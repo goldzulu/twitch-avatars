@@ -89,6 +89,48 @@ export const COMMANDS = [
     args: ['vtcaptainmarvel'],
   },
   {
+    command: 'superman',
+    method: 'changeCharacter',
+    event: 'userChatAction',
+    args: ['vtsuperman'],
+  },
+  {
+    command: 'batman',
+    method: 'changeCharacter',
+    event: 'userChatAction',
+    args: ['vtbatman'],
+  },
+  {
+    command: 'blackpanther',
+    method: 'changeCharacter',
+    event: 'userChatAction',
+    args: ['vtblackpanther'],
+  },
+  {
+    command: 'captainamerica',
+    method: 'changeCharacter',
+    event: 'userChatAction',
+    args: ['vtcaptainamerica'],
+  },
+  {
+    command: 'drstrange',
+    method: 'changeCharacter',
+    event: 'userChatAction',
+    args: ['vtdrstrange'],
+  },
+  {
+    command: 'c3po',
+    method: 'changeCharacter',
+    event: 'userChatAction',
+    args: ['vtC3PO'],
+  },
+  {
+    command: 'r2d2',
+    method: 'changeCharacter',
+    event: 'userChatAction',
+    args: ['vtR2D2'],
+  },
+  {
     command: 'princess',
     method: 'changeCharacter',
     event: 'userChatAction',

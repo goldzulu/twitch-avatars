@@ -14,6 +14,13 @@ export const VTCAPTAINMARVEL = 'vtcaptainmarvel';
 export const VTWONDERWOMAN = 'vtwonderwoman';
 export const VTSPIDERMAN = 'vtspiderman';
 
+export const VTSUPERMAN = 'vtsuperman';
+export const VTBATMAN = 'vtbatman';
+export const VTBLACKPANTHER = 'vtblackpanther';
+export const VTCAPTAINAMERICA = 'vtcaptainamerica';
+export const VTDRSTRANGE = 'vtdrstrange';
+export const VTC3PO = 'vtC3PO';
+export const VTR2D2 = 'vtR2D2';
 
 export const SANTA = 'santa';
 export const SNOWMAN = 'snowman';

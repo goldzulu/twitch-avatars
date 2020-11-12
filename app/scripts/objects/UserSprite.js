@@ -14,6 +14,13 @@ import {
   VTWONDERWOMAN,
   VTCAPTAINMARVEL,
   VTSPIDERMAN,
+  VTSUPERMAN,
+  VTBATMAN,
+  VTBLACKPANTER,
+  VTCAPTAINAMERICA,
+  VTDRSTRANGE,
+  VTC3PO,
+  VTR2D2
 } from '@/constants/characters';
 import { getUserIntItem, setUserItem } from '@/helpers/PersistedStorage';
 
