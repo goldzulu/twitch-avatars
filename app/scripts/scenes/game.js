@@ -12,6 +12,11 @@ import SpikedBall from '../objects/SpikedBall';
 import { clear } from '../helpers/PersistedStorage';
 import { debug } from '../config';
 
+// if GROOT speech will be modified
+import {
+  VTGROOT
+} from '@/constants/characters';
+
 // giftsub VIA robertables - lurking_kat
 // Resub - DannyKampsGamez
 
@@ -163,6 +168,24 @@ export default class Game extends Phaser.Scene {
       const sprite = this.addUserSprite(user, message, flags);
       if (sprite) {
         sprite.displayNameText();
+        if (sprite.character==VTGROOT) {
+          var speechVariation = Phaser.Math.Between(1, 3);
+          switch (speechVariation) {
+          case 1:
+            message = '... I Am Groot';
+            break;
+          case 2:
+            message = 'I Am Groot ...';
+            break;
+          case 3:
+            message = 'I Am Groot';
+            break;
+          default:
+            message = '... I Am Groot ...';
+            break;
+          }    
+        }
+
         sprite.displaySpeechBubble(message, extra);
 
         if (/^(hi|hey|hello|howdy)$/i.exec(message)) {
