@@ -20,7 +20,12 @@ import {
   VTCAPTAINAMERICA,
   VTDRSTRANGE,
   VTC3PO,
-  VTR2D2
+  VTR2D2,
+  VTBIDEN,
+  VTGROOT,
+  VTHULK,
+  VTTHOR,
+  VTTRUMP
 } from '@/constants/characters';
 import { getUserIntItem, setUserItem } from '@/helpers/PersistedStorage';
 

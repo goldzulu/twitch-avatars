@@ -131,6 +131,36 @@ export const COMMANDS = [
     args: ['vtR2D2'],
   },
   {
+    command: 'hulk',
+    method: 'changeCharacter',
+    event: 'userChatAction',
+    args: ['vthulk'],
+  },
+  {
+    command: 'biden',
+    method: 'changeCharacter',
+    event: 'userChatAction',
+    args: ['vtbiden'],
+  },
+  {
+    command: 'trump',
+    method: 'changeCharacter',
+    event: 'userChatAction',
+    args: ['vttrump'],
+  },
+  {
+    command: 'thor',
+    method: 'changeCharacter',
+    event: 'userChatAction',
+    args: ['vtthor'],
+  },
+  {
+    command: 'groot',
+    method: 'changeCharacter',
+    event: 'userChatAction',
+    args: ['vtgroot'],
+  },
+  {
     command: 'princess',
     method: 'changeCharacter',
     event: 'userChatAction',

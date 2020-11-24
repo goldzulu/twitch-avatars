@@ -22,5 +22,11 @@ export const VTDRSTRANGE = 'vtdrstrange';
 export const VTC3PO = 'vtC3PO';
 export const VTR2D2 = 'vtR2D2';
 
+export const VTBIDEN = 'vtbiden';
+export const VTGROOT = 'vtgroot';
+export const VTHULK = 'vthulk';
+export const VTTHOR = 'vtthor';
+export const VTTRUMP = 'vttrump';
+
 export const SANTA = 'santa';
 export const SNOWMAN = 'snowman';
