@@ -121,11 +121,6 @@ export const AUDIO_COMMANDS = [
     config: { volume: 0.10 },
   },
   {
-    command: 'sandiego',
-    file: 'audio/sandiego.mp3',
-    config: { volume: 1.0 },
-  },
-  {
     command: 'ducksong',
     file: 'audio/duck-song.mp3',
     config: { volume: 0.3 },
