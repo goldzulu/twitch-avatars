@@ -34,9 +34,9 @@ jobs:
         run: |
           yarn dist
 
-      - name: GH Pages Publish
-        uses: maxheld83/ghpages@v0.2.1
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/master'
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
-          BUILD_DIR: "dist/"
+        with:
+          personal_token: ${{ secrets.GH_PAT }}
+          publish_dir: ./dist  
