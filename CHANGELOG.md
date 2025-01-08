@@ -27,3 +27,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security
 - Added CodeQL analysis workflow for automated security scanning
 - Updated dependencies to patch security vulnerabilities 
+
+### Github Actions
+- Fixed Github Actions workflow with more modern actions
