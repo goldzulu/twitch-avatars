@@ -8,34 +8,35 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-      with:
-        fetch-depth: 0
-    - name: Cache node modules
-      uses: actions/cache@preview
-      with:
-        path: node_modules
-        key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-node-
-    
-    - name: yarn install
-      if: steps.cache.outputs.cache-hit != 'true'
-      run: |
-        yarn install
-        
-    - name: yarn lint
-      run: |
-        yarn lint
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
-    - name: Build Release
-      if: github.ref == 'refs/heads/master'
-      run: |
-        yarn dist
+      - name: Cache node_modules
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      
+      - name: yarn install
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          yarn install
+          
+      - name: yarn lint
+        run: |
+          yarn lint
 
-    - name: GH Pages Publish
-      uses: maxheld83/ghpages@v0.2.1
-      if: github.ref == 'refs/heads/master'
-      env:
-        GH_PAT: ${{ secrets.GH_PAT }}
-        BUILD_DIR: "dist/"
+      - name: Build Release
+        if: github.ref == 'refs/heads/master'
+        run: |
+          yarn dist
+
+      - name: GH Pages Publish
+        uses: maxheld83/ghpages@v0.2.1
+        if: github.ref == 'refs/heads/master'
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+          BUILD_DIR: "dist/"
