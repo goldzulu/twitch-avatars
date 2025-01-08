@@ -38,5 +38,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/master'
         with:
-          personal_token: ${{ secrets.GH_PAT }}
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
           publish_dir: ./dist  
