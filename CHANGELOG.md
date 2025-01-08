@@ -30,3 +30,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Github Actions
 - Fixed Github Actions workflow with more modern actions
+- Corrected permissions
