@@ -3,15 +3,11 @@
  *
  * @export
  * @param {Phaser.Scene} scene
- * @returns {Phaser.GameObjects.Particles.ParticleEmitter} emitter
+ * @returns {Phaser.GameObjects.Particles.ParticleEmitterManager} emitter
  */
 export function buildExplosion(scene) {
-  var particles = scene.add.particles('explosion');
-
-  //  Setting { min: x, max: y } will pick a random value between min and max
-  //  Setting { start: x, end: y } will ease between start and end
-
-  particles.createEmitter({
+  // Create particle emitters using the new syntax
+  const smokeEmitter = scene.add.particles(0, 0, 'explosion', {
     frame: ['smoke-puff', 'cloud', 'smoke-puff'],
     angle: { min: 240, max: 300 },
     speed: { min: 200, max: 300 },
@@ -19,27 +15,41 @@ export function buildExplosion(scene) {
     lifespan: 2000,
     alpha: { start: 1, end: 0 },
     scale: { start: 1.5, end: 0.5 },
-    on: false,
+    emitting: false
   });
 
-  particles.createEmitter({
+  const redEmitter = scene.add.particles(0, 0, 'explosion', {
     frame: 'red',
     angle: { min: 0, max: 360, steps: 32 },
     lifespan: 1000,
     speed: 400,
     quantity: 32,
     scale: { start: 0.3, end: 0 },
-    on: false,
+    emitting: false
   });
 
-  particles.createEmitter({
+  const muzzleEmitter = scene.add.particles(0, 0, 'explosion', {
     frame: 'muzzleflash2',
     lifespan: 200,
     scale: { start: 2, end: 0 },
     rotate: { start: 0, end: 180 },
-    on: false,
+    emitting: false
   });
 
-  return particles;
-  // particles.emitParticleAt(pointer.x, pointer.y);
+  // Create a container to hold all emitters
+  const container = scene.add.container();
+  container.add([smokeEmitter, redEmitter, muzzleEmitter]);
+
+  // Add a custom emitParticleAt method to match previous usage
+  container.emitParticleAt = function(x, y) {
+    smokeEmitter.setPosition(x, y);
+    redEmitter.setPosition(x, y);
+    muzzleEmitter.setPosition(x, y);
+    
+    smokeEmitter.explode();
+    redEmitter.explode();
+    muzzleEmitter.explode();
+  };
+
+  return container;
 }

@@ -7,7 +7,6 @@
 
 //  Import created game scenes.
 import * as scenes from '@/scenes';
-import GameScalePlugin from 'phaser-plugin-game-scale';
 
 //  HINT: Import plugins, custom or trusted third-party ones, here.
 // import ExamplePlugin from 'example-plugin';
@@ -154,18 +153,6 @@ export const plugins = {
     //   //  `this.plugins.start('<key>')`.
     //   start: true
     // },
-    {
-      key: 'GameScalePlugin',
-      plugin: GameScalePlugin,
-      mapping: 'gameScale',
-      data: {
-        maxHeight: Infinity,
-        maxWidth: Infinity,
-        minHeight: 0,
-        minWidth: 0,
-        mode: 'fit',
-      },
-    },
   ],
 
   scene: [
@@ -199,3 +186,25 @@ export { title, version, url } from '@/../../package.json';
  *  Export created game scenes.
  */
 export const scene = Object.values(scenes);
+
+/**
+ * Scale manager configuration
+ * Converted from phaser-plugin-game-scale to built-in scale manager
+ */
+export const scale = {
+  mode: Phaser.Scale.FIT,
+  autoCenter: Phaser.Scale.CENTER_BOTH,
+  width: width,  // Use the already defined width constant (2560)
+  height: height, // Use the already defined height constant (1440)
+  min: {
+    width: 0,    // From the old plugin's minWidth
+    height: 0    // From the old plugin's minHeight
+  },
+  max: {
+    width: Infinity,  // From the old plugin's maxWidth
+    height: Infinity  // From the old plugin's maxHeight
+  },
+  zoom: zoom,    // Use the already defined zoom constant
+  autoRound: roundPixels, // Use the existing roundPixels setting
+  expandParent: true
+};

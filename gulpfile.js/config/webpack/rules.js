@@ -18,20 +18,20 @@ module.exports = [
   //  - <https://github.com/babel/babel-loader#readme>
   {
     test: /\.js$/,
-    include: dirs.scripts,
-    loader: 'babel-loader',
-    options: {
-      presets: [
-        [
-          '@babel/preset-env',
-          {
+    exclude: /node_modules/,
+    use: {
+      loader: 'babel-loader',
+      options: {
+        presets: [
+          ['@babel/preset-env', {
+            useBuiltIns: 'usage',
+            corejs: 3,
             targets: {
-              browsers: 'last 2 versions'
-            },
-            useBuiltIns: 'usage'
-          }
+              browsers: ['last 2 versions', 'not dead']
+            }
+          }]
         ]
-      ]
+      }
     }
   },
 

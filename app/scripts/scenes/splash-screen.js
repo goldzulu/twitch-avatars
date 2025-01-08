@@ -1,5 +1,6 @@
 import characterAnimationsFactory from '@/helpers/characterAnimationsFactory';
 import voicetechCharsAnimationsFactory from '@/helpers/voicetechCharsAnimationsFactory';
+import itemAnimationsFactory from '@/helpers/itemAnimationsFactory';
 import { createHolidayAnimations } from '@/helpers/holidayCharacterAnimationsFactory';
 import { loadAudio } from '../helpers/audioFactory';
 
@@ -61,6 +62,7 @@ export default class SplashScreen extends Phaser.Scene {
   create() {
     characterAnimationsFactory(this);
     voicetechCharsAnimationsFactory(this);
+    itemAnimationsFactory(this);
     createHolidayAnimations(this);
     //  We have nothing left to do here. Start the next scene.
     this.scene.start('Game');
