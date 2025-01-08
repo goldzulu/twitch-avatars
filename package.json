@@ -29,7 +29,7 @@
     "push-dir": "^0.4.1",
     "read-pkg-up": "^4.0.0",
     "webpack": "^4.41.5",
-    "webpack-dev-middleware": "^3.2.0"
+    "webpack-dev-middleware": "^5.3.4"
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
